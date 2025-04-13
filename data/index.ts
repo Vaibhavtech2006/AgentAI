@@ -8,14 +8,17 @@ export const navItems = [
   export const gridItems = [
     {
       id: 1,
-      title: "I prioritize client collaboration, fostering open communication ",
+      title: "I prioritize client collaboration, fostering open communication",
       description: "",
-      className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
-      imgClassName: "w-full h-full absolute",
+      className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh] relative",
+      imgClassName: "w-full h-full object-cover", // Object cover ensures the image maintains aspect ratio
       titleClassName: "justify-end",
       img: "/ag1.webp",
       spareImg: "",
-    },
+    }
+    ,
+
+    
     {
       id: 2,
       title: "I'm very flexible with time zone communications",
