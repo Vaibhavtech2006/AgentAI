@@ -1,9 +1,11 @@
-import React from 'react'
-import { BentoGrid, BentoGridItem } from './ui/BentoGrid'
-import { gridItems } from '@/data'
-import { ContainerScroll } from "../components/ui/container-scroll-animation"
-import {HoverEffect} from './ui/card-hover-effect'
-import {CardDemo} from './ui/Feature Block Animated Card'
+"use client";
+import React from "react";
+// ✅ import your Lamp section
+import { BentoGrid, BentoGridItem } from "./ui/BentoGrid";
+import { gridItems } from "@/data";
+import { ContainerScroll } from "../components/ui/container-scroll-animation";
+import { HoverEffect } from "./ui/card-hover-effect";
+import { CardDemo } from "./ui/Feature Block Animated Card";
 
 const hoverItems = [
   {
@@ -44,69 +46,75 @@ const hoverItems = [
   },
 ];
 
-const Grid = () => {
+const HomePage = () => {
   return (
-    <section id="about">
-      {/* Scroll Container with Bento Grid */}
-      <ContainerScroll
-        titleComponent={
-          <>
-            <h1 className="text-4xl font-bold text-black dark:text-white">
-              Explore Our Features
-            </h1>
-            <p className="text-sm text-gray-500 dark:text-gray-300 mt-2">
-              Each one crafted with precision & purpose.
-            </p>
-          </>
-        }
-      >
-        <BentoGrid>
-          {gridItems.map(
-            ({
-              id,
-              title,
-              description,
-              className,
-              img,
-              imgClassName,
-              titleClassName,
-              spareImg
-            }) => (
-              <BentoGridItem
-                key={id}
-                id={id}
-                title={title}
-                description={description}
-                className={className}
-                img={img}
-                imgClassName={imgClassName}
-                titleClassName={titleClassName}
-                spareImg={spareImg}
-              />
-            )
-          )}
-        </BentoGrid>
-      </ContainerScroll>
+    <main className="min-h-screen bg-slate-950 text-white">
+      {/* 🚀 Hero Section with Lamp Effect */}
+      
 
-      {/* HoverEffect Cards Section */}
-      <div className="mt-10 px-4">
-        <h2 className="text-3xl font-semibold text-center text-black dark:text-white mb-4">
+      {/* 🧩 Bento Grid Section */}
+      <section id="about">
+        <ContainerScroll
+          titleComponent={
+            <>
+              <h1 className="text-4xl font-bold text-white">
+                Explore Our Features
+              </h1>
+              <p className="text-sm text-gray-300 mt-2">
+                Each one crafted with precision & purpose.
+              </p>
+            </>
+          }
+        >
+          <BentoGrid>
+            {gridItems.map(
+              ({
+                id,
+                title,
+                description,
+                className,
+                img,
+                imgClassName,
+                titleClassName,
+                spareImg,
+              }) => (
+                <BentoGridItem
+                  key={id}
+                  id={id}
+                  title={title}
+                  description={description}
+                  className={className}
+                  img={img}
+                  imgClassName={imgClassName}
+                  titleClassName={titleClassName}
+                  spareImg={spareImg}
+                />
+              )
+            )}
+          </BentoGrid>
+        </ContainerScroll>
+      </section>
+
+      {/* ✨ HoverEffect Cards Section */}
+      <section className="mt-20 px-4">
+        <h2 className="text-3xl font-semibold text-center mb-4">
           Supercharge Your Sales with AI Agents
         </h2>
-        <p className="text-center text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-          Explore powerful AI-driven tools designed to automate lead generation, personalize outreach, and optimize your entire sales pipeline.
+        <p className="text-center text-gray-300 max-w-2xl mx-auto mb-10">
+          Explore powerful AI-driven tools designed to automate lead generation,
+          personalize outreach, and optimize your entire sales pipeline.
         </p>
-      </div>
-      <HoverEffect items={hoverItems} />
+        <HoverEffect items={hoverItems} />
+      </section>
 
-      {/* Animated Feature Block Card */}
-      <div className="page-container mt-10 px-4">
+      {/* 🌟 Feature Card Section */}
+      <section className="mt-20 px-4 mb-10">
         <div className="card-container">
           <CardDemo />
         </div>
-      </div>
-    </section>
-  )
-}
+      </section>
+    </main>
+  );
+};
 
-export default Grid
+export default HomePage;

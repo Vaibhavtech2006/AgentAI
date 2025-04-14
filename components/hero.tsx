@@ -4,12 +4,17 @@ import { cn } from "@/utils/cn";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import MagicButton from "./ui/MagicButton";
 import { FaLocationArrow } from "react-icons/fa";
+
 import { FollowerPointerCard } from "../components/ui/following-pointer";
+import ColourfulText from "@/components/ui/colourful-text"
+import { motion } from "motion/react"
+
+
 const Hero = () => {
   return (
     <FollowerPointerCard >
     <section className="relative pb-20 pt-36 overflow-hidden">
-      {/* Spotlights */}
+      
       <Spotlight
         className="-top-40 -left-20 md:left-10 md:top-20 h-screen animate-moveLeft"
         fill="white"
@@ -29,10 +34,15 @@ const Hero = () => {
 
       {/* Main Heading */}
       <div className="relative z-10">
-        <h1 className="text-center text-4xl font-bold text-black dark:text-white">
-          Meet Your Personal AI Agents
-        </h1>
-      </div>
+  <h1 className="text-center text-black dark:text-white">
+    <div className="text-6xl md:text-8xl lg:text-5xl font-bold">
+      <ColourfulText text="Vikriti.Ai" />
+    </div>
+    <div className="text-4xl font-bold mt-2">
+      Meet Your Personal AI Agents
+    </div>
+  </h1>
+</div>
 
       {/* Background Effects */}
       <div className="h-screen w-full flex items-center justify-center bg-white dark:bg-black absolute top-0 left-0">
@@ -70,6 +80,7 @@ const Hero = () => {
           </a>
         </div>
       </div>
+      
     </section>
     </FollowerPointerCard>
   );
