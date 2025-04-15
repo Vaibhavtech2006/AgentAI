@@ -4,7 +4,7 @@ import { cn } from "@/utils/cn";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import MagicButton from "./ui/MagicButton";
 import { FaLocationArrow } from "react-icons/fa";
-
+import {ClerkProvider} from "@clerk/nextjs"
 import { FollowerPointerCard } from "../components/ui/following-pointer";
 import ColourfulText from "@/components/ui/colourful-text"
 import { motion } from "motion/react"
@@ -12,6 +12,7 @@ import { motion } from "motion/react"
 
 const Hero = () => {
   return (
+    <ClerkProvider>
     <FollowerPointerCard >
     <section className="relative pb-20 pt-36 overflow-hidden">
       
@@ -83,6 +84,7 @@ const Hero = () => {
       
     </section>
     </FollowerPointerCard>
+    </ClerkProvider>
   );
 };
 
