@@ -8,6 +8,8 @@ import {ClerkProvider} from "@clerk/nextjs"
 import { FollowerPointerCard } from "../components/ui/following-pointer";
 import ColourfulText from "@/components/ui/colourful-text"
 import { motion } from "motion/react"
+import Link from "next/link";
+
 
 
 const Hero = () => {
@@ -72,13 +74,13 @@ const Hero = () => {
             Say goodbye to endless scheduling and missed calls. Our intelligent AI agents handle everything — from booking your meetings to placing free calls on your behalf.
           </p>
 
-          <a href="#about">
-            <MagicButton
-              title="Try Our Agents"
-              icon={<FaLocationArrow />}
-              position="right"
-            />
-          </a>
+          <Link href="/agents">
+  <MagicButton
+    title="Try Our Agents"
+    icon={<FaLocationArrow />}
+    position="right"
+  />
+</Link>
         </div>
       </div>
       
