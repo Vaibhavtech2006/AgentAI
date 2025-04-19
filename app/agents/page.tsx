@@ -4,6 +4,40 @@ import React from "react";
 import { CardSpotlight } from "@/components/ui/card-spotlight";
 import { WavyBackground } from "@/components/ui/wavy-background";
 import { GlareCard } from "@/components/ui/glare-card";
+import { StickyScroll } from "@/components/ui/sticky-scroll-reveal";
+
+const stickyContent = [
+  {
+    title: "Connect with Your Leads",
+    description: "Build strong relationships by understanding your lead's needs and preferences.",
+    content: (
+      <div className="p-4 text-white">
+        <h3 className="text-xl font-bold mb-2">Lead Insights</h3>
+        <p>Analyze your lead's behavior to personalize your approach.</p>
+      </div>
+    ),
+  },
+  {
+    title: "Schedule Meetings",
+    description: "Set up timely and impactful meetings to move your leads down the funnel.",
+    content: (
+      <div className="p-4 text-white">
+        <h3 className="text-xl font-bold mb-2">Meeting Scheduler</h3>
+        <p>Use our tools to find the best time to meet your prospects.</p>
+      </div>
+    ),
+  },
+  {
+    title: "Close Deals Faster",
+    description: "Convert more leads with streamlined communication and follow-ups.",
+    content: (
+      <div className="p-4 text-white">
+        <h3 className="text-xl font-bold mb-2">CRM Integration</h3>
+        <p>Sync all your data and track progress in real-time.</p>
+      </div>
+    ),
+  },
+];
 
 export default function AgentsPage() {
   return (
@@ -48,6 +82,11 @@ export default function AgentsPage() {
             </button>
           </GlareCard>
         </div>
+      </div>
+
+      {/* Sticky Scroll Reveal Section */}
+      <div className="z-10 w-full max-w-6xl px-4">
+        <StickyScroll content={stickyContent} />
       </div>
 
       {/* WavyBackground positioned behind using z-0 */}
