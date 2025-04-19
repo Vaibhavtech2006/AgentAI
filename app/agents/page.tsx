@@ -5,6 +5,7 @@ import { CardSpotlight } from "@/components/ui/card-spotlight";
 import { WavyBackground } from "@/components/ui/wavy-background";
 import { GlareCard } from "@/components/ui/glare-card";
 import { StickyScroll } from "@/components/ui/sticky-scroll-reveal";
+import { InfiniteMovingCards } from "@/components/ui/infinite-moving-cards";
 
 const stickyContent = [
   {
@@ -39,10 +40,38 @@ const stickyContent = [
   },
 ];
 
+const testimonials = [
+  {
+    quote: "This tool transformed how we reach our leads!",
+    name: "Ananya Sharma",
+    title: "Marketing Head, BrightFuture Inc.",
+  },
+  {
+    quote: "This tool transformed how we reach our leads!",
+    name: "Ananya Sharma",
+    title: "Marketing Head, BrightFuture Inc.",
+  },
+  {
+    quote: "The UI is amazing and the experience is smooth.",
+    name: "Rohan Verma",
+    title: "Sales Manager, QuickSales",
+  },
+  {
+    quote: "My leads conversion rate has doubled!",
+    name: "Priya Desai",
+    title: "Freelance Consultant",
+  },
+  {
+    quote: "Absolutely love the integration with our CRM system.",
+    name: "Vikram Singh",
+    title: "CEO, LeadLink",
+  },
+];
+
 export default function AgentsPage() {
   return (
     <div className="relative flex flex-col items-center justify-center min-h-screen bg-black overflow-hidden space-y-10">
-      {/* CardSpotlight wrapped in a z-10 container to ensure visibility */}
+      {/* Spotlight Card */}
       <div className="z-10 relative mt-20">
         <CardSpotlight className="h-64 w-64 p-6 rounded-lg shadow-lg bg-gradient-to-r from-blue-500 via-purple-500 to-indigo-600">
           <button className="text-2xl font-extrabold text-white text-center mt-2 shadow-md p-2 rounded-md hover:bg-white hover:text-black transition duration-300">
@@ -58,7 +87,7 @@ export default function AgentsPage() {
         </CardSpotlight>
       </div>
 
-      {/* GlareCard Section */}
+      {/* Glare Cards */}
       <div className="z-10 relative w-full max-w-6xl px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
           <GlareCard className="flex flex-col items-center justify-center space-y-4 p-6">
@@ -84,12 +113,22 @@ export default function AgentsPage() {
         </div>
       </div>
 
-      {/* Sticky Scroll Reveal Section */}
+      {/* Sticky Scroll Reveal */}
       <div className="z-10 w-full max-w-6xl px-4">
         <StickyScroll content={stickyContent} />
       </div>
 
-      {/* WavyBackground positioned behind using z-0 */}
+      {/* Infinite Moving Cards */}
+      <div className="z-10 w-full px-4">
+        <InfiniteMovingCards
+          items={testimonials}
+          direction="left"
+          speed="fast"
+          pauseOnHover={true}
+        />
+      </div>
+
+      {/* Background */}
       <div className="absolute inset-0 z-0">
         <WavyBackground className="max-w-4xl mx-auto pb-40" />
       </div>
