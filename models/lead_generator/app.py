@@ -1,60 +1,57 @@
-from flask import Flask, render_template, request, send_file
-import http.client
-import json
-import urllib.parse
+from apify_client import ApifyClient
+import time
 
-app = Flask(__name__)
+# Initialize the ApifyClient
+client = ApifyClient('apify_api_gK18DAYeTpaDac0JlVYnzAkZQep72r2cKEuA')
 
-@app.route("/", methods=["GET", "POST"])
-def index():
-    if request.method == "POST":
-        place_name = request.form["place"]
-        search_keyword = request.form["keyword"]
-        limit = int(request.form["limit"])
+# Set up the API request for running the task
+task_client = client.task('mrigaanksh~google-maps-scraper-task')  # Replace with your actual task ID
 
-        token = "apify_api_5gjXmwixLft6dhPAlijFzp9bgNUj3u2pOafs"
-        actor_id = "compass~crawler-google-places"
+# Define task input parameters
+task_input = {
+    "locationQuery": "Ghaziabad, India",
+    "searchStringsArray": ["restaurant"]
+}
 
-        params = urllib.parse.urlencode({
-            'token': token,
-            'format': 'csv',
-            'clean': 'true',
-            'limit': limit
-        })
-        endpoint = f"/v2/acts/{actor_id}/run-sync-get-dataset-items?{params}"
+# Trigger the task
+try:
+    # Run the task and get the run details
+    run = task_client.call(
+        task_input=task_input,  # Pass the task input here
+        timeout_secs=60,  # Timeout in seconds
+        memory_mbytes=512  # Memory limit in megabytes
+    )
 
-        payload = json.dumps({
-            "includeWebResults": False,
-            "language": "en",
-            "locationQuery": place_name,
-            "maxCrawledPlaces": limit,
-            "maxImages": 0,
-            "maxQuestions": 0,
-            "maxReviews": 0,
-            "scrapeContacts": False,
-            "scrapeDirectories": False,
-            "scrapeImageAuthors": False,
-            "scrapePlaceDetailPage": False,
-            "scrapeReviewsPersonalData": True,
-            "scrapeTableReservationProvider": False,
-            "searchStringsArray": [search_keyword],
-            "skipClosedPlaces": False
-        })
+    print(f"Task Run ID: {run['id']} - Status: {run['status']}")
 
-        headers = {
-            'Content-Type': 'application/json',
-            'Accept': 'application/json'
-        }
+    # Wait for the task to complete (Polling)
+    while run['status'] != 'SUCCEEDED' and run['status'] != 'FAILED':
+        print(f"Waiting for task to complete... Current status: {run['status']}")
+        time.sleep(5)  # Sleep for 5 seconds before checking again
+        run = task_client.get_run(run['id'])  # Fetch the latest run status
 
-        conn = http.client.HTTPSConnection("api.apify.com")
-        conn.request("POST", endpoint, payload, headers)
-        res = conn.getresponse()
-        data = res.read()
+    if run['status'] == 'SUCCEEDED':
+        # Once the task is done, fetch the dataset items
+        dataset = client.dataset(run['defaultDatasetId'])
+        items = []
+        offset = 0
+        limit = 1000
 
-        filename = f"{place_name.replace(',', '').replace(' ', '_').lower()}_{search_keyword.lower()}.csv"
-        with open(filename, "wb") as f:
-            f.write(data)
+        while True:
+            current_items = dataset.list_items(offset=offset, limit=limit).items
+            items.extend(current_items)
 
-        return send_file(filename, as_attachment=True)
+            if len(current_items) < limit:
+                break
 
-    return render_template("index.html")
+            offset += limit
+
+        print(f"Retrieved {len(items)} items from the dataset.")
+        # Return the items or process them as needed
+        print(items)
+
+    else:
+        print(f"Task failed with status: {run['status']}")
+
+except Exception as e:
+    print(f"An error occurred: {str(e)}")
