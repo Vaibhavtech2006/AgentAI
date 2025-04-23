@@ -22,7 +22,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Vaibhav's Portfolio",
+  title: "Agent AI",
   description: "learning nextjs through project building",
 };
 
