@@ -1,21 +1,71 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Place Scraper</title>
+    <title>Leads Scraper</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 8px;
+        }
+    </style>
 </head>
 <body>
-  <h2>Google Places Scraper</h2>
-  <form method="POST">
-    <label>Place Name:</label><br>
-    <input type="text" name="place" placeholder="e.g. Ghaziabad, India" required><br><br>
+    <h2>Google Maps Leads Scraper</h2>
 
-    <label>Search Keyword:</label><br>
-    <input type="text" name="keyword" placeholder="e.g. restaurant, cafe" required><br><br>
+    <form id="scrapeForm">
+        <label for="location">Location:</label>
+        <input type="text" id="location" name="location" value="Ghaziabad, India" required><br><br>
+        <label for="query">Search Query:</label>
+        <input type="text" id="query" name="query" value="restaurant" required><br><br>
+        <button type="submit">Scrape</button>
+    </form>
 
-    <label>Number of Results:</label><br>
-    <input type="number" name="limit" value="10" min="1" max="100" required><br><br>
+    <h3>Results:</h3>
+    <table id="resultsTable">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Phone</th>
+                <th>Rating</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
 
-    <button type="submit">Scrape Now</button>
-  </form>
+    <script>
+        document.getElementById('scrapeForm').addEventListener('submit', async function(event) {
+            event.preventDefault();
+
+            const formData = new FormData(event.target);
+            const response = await fetch('/scrape', {
+                method: 'POST',
+                body: formData
+            });
+
+            const data = await response.json();
+            const tableBody = document.querySelector('#resultsTable tbody');
+            tableBody.innerHTML = '';
+
+            if (data.error) {
+                alert(data.error);
+                return;
+            }
+
+            data.forEach(item => {
+                const row = document.createElement('tr');
+                row.innerHTML = `
+                    <td>${item.title || 'N/A'}</td>
+                    <td>${item.address || 'N/A'}</td>
+                    <td>${item.phone || 'N/A'}</td>
+                    <td>${item.totalScore || 'N/A'}</td>
+                `;
+                tableBody.appendChild(row);
+            });
+        });
+    </script>
 </body>
 </html>
