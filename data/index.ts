@@ -1,3 +1,4 @@
+
 export const navItems = [
     { name: "About", link: "#about" },
     { name: "Projects", link: "#projects" },
@@ -11,9 +12,9 @@ export const navItems = [
       title: "I prioritize client collaboration, fostering open communication",
       description: "",
       className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh] relative",
-      imgClassName: "w-full h-full object-cover", // Object cover ensures the image maintains aspect ratio
+      imgClassName: "w-full h-full object-cover", 
       titleClassName: "justify-end",
-      img: "/ag1.webp",
+      img: "",
       spareImg: "",
     }
     ,
@@ -47,7 +48,7 @@ export const navItems = [
       imgClassName: "",
       titleClassName: "justify-start",
       img: "/grid.svg",
-      spareImg: "/b4.svg",
+      spareImg: "",
     },
   
     {

@@ -1,0 +1,962 @@
+[
+    {
+        "rank": 2,
+        "title": "I Love Chillies",
+        "subTitle": "\u0906\u0908 \u0932\u0935 \u091a\u093f\u0932\u0940\u091c",
+        "price": "\u20b9200\u2013400",
+        "categoryName": "Fine dining restaurant",
+        "address": "Shop no 8, BR Complex, Main, Loni Bhopura Rd, near Dmart, Ghaziabad, Uttar Pradesh 201001, India",
+        "neighborhood": null,
+        "street": "Shop no 8, BR Complex, Main, Loni Bhopura Rd, near Dmart",
+        "city": "Ghaziabad",
+        "postalCode": "201001",
+        "state": "Uttar Pradesh",
+        "countryCode": "IN",
+        "phone": "+91 70650 00183",
+        "phoneUnformatted": "+917065000183",
+        "claimThisBusiness": false,
+        "location": {
+            "lat": 28.7175123,
+            "lng": 77.3312576
+        },
+        "totalScore": 3.5,
+        "permanentlyClosed": false,
+        "temporarilyClosed": false,
+        "placeId": "ChIJE2GCdQD7DDkR-0wxKE9nbZs",
+        "categories": [
+            "Fine dining restaurant"
+        ],
+        "fid": "0x390cfb0075826113:0x9b6d674f28314cfb",
+        "cid": "11199721438014688507",
+        "reviewsCount": 82,
+        "imagesCount": 62,
+        "imageCategories": [],
+        "scrapedAt": "2025-04-23T14:37:47.976Z",
+        "reserveTableUrl": "https://www.google.com/maps/reserve/v/dine/c/FVP9bPlwzi8?source=pa&opi=79508299&hl=en-US&gei=OvsIaPbzKcGr5NoPiNWu0AU&sourceurl=https://www.google.com/service/MapsSearchService/Search?hl%3Den%26authuser%3D0%26gl%3Dus%26q%3Drestaurant%26tbm%3Dmap",
+        "googleFoodUrl": null,
+        "hotelAds": [],
+        "openingHours": [
+            {
+                "day": "Monday",
+                "hours": "12\u202fPM to 12\u202fAM"
+            },
+            {
+                "day": "Tuesday",
+                "hours": "12\u202fPM to 12\u202fAM"
+            },
+            {
+                "day": "Wednesday",
+                "hours": "12\u202fPM to 12\u202fAM"
+            },
+            {
+                "day": "Thursday",
+                "hours": "12\u202fPM to 12\u202fAM"
+            },
+            {
+                "day": "Friday",
+                "hours": "12\u202fPM to 12\u202fAM"
+            },
+            {
+                "day": "Saturday",
+                "hours": "12\u202fPM to 12\u202fAM"
+            },
+            {
+                "day": "Sunday",
+                "hours": "12\u202fPM to 12\u202fAM"
+            }
+        ],
+        "additionalOpeningHours": {
+            "Delivery": [
+                {
+                    "day": "Monday",
+                    "hours": "12\u202fPM\u201312\u202fAM"
+                },
+                {
+                    "day": "Tuesday",
+                    "hours": "12\u202fPM\u201312\u202fAM"
+                },
+                {
+                    "day": "Wednesday",
+                    "hours": "12\u202fPM\u201312\u202fAM"
+                },
+                {
+                    "day": "Thursday",
+                    "hours": "12\u202fPM\u201312\u202fAM"
+                },
+                {
+                    "day": "Friday",
+                    "hours": "12\u202fPM\u201312\u202fAM"
+                },
+                {
+                    "day": "Saturday",
+                    "hours": "12\u202fPM\u201312\u202fAM"
+                },
+                {
+                    "day": "Sunday",
+                    "hours": "12\u202fPM\u201312\u202fAM"
+                }
+            ],
+            "Takeout": [
+                {
+                    "day": "Monday",
+                    "hours": "12\u202fPM\u201312\u202fAM"
+                },
+                {
+                    "day": "Tuesday",
+                    "hours": "12\u202fPM\u201312\u202fAM"
+                },
+                {
+                    "day": "Wednesday",
+                    "hours": "12\u202fPM\u201312\u202fAM"
+                },
+                {
+                    "day": "Thursday",
+                    "hours": "12\u202fPM\u201312\u202fAM"
+                },
+                {
+                    "day": "Friday",
+                    "hours": "12\u202fPM\u201312\u202fAM"
+                },
+                {
+                    "day": "Saturday",
+                    "hours": "12\u202fPM\u201312\u202fAM"
+                },
+                {
+                    "day": "Sunday",
+                    "hours": "12\u202fPM\u201312\u202fAM"
+                }
+            ],
+            "Lunch": [
+                {
+                    "day": "Monday",
+                    "hours": "12\u202fPM\u201312\u202fAM"
+                },
+                {
+                    "day": "Tuesday",
+                    "hours": "12\u202fPM\u201312\u202fAM"
+                },
+                {
+                    "day": "Wednesday",
+                    "hours": "12\u202fPM\u201312\u202fAM"
+                },
+                {
+                    "day": "Thursday",
+                    "hours": "12\u202fPM\u201312\u202fAM"
+                },
+                {
+                    "day": "Friday",
+                    "hours": "12\u202fPM\u201312\u202fAM"
+                },
+                {
+                    "day": "Saturday",
+                    "hours": "12\u202fPM\u201312\u202fAM"
+                },
+                {
+                    "day": "Sunday",
+                    "hours": "12\u202fPM\u201312\u202fAM"
+                }
+            ],
+            "Dinner": [
+                {
+                    "day": "Monday",
+                    "hours": "12\u202fPM\u201312\u202fAM"
+                },
+                {
+                    "day": "Tuesday",
+                    "hours": "12\u202fPM\u201312\u202fAM"
+                },
+                {
+                    "day": "Wednesday",
+                    "hours": "12\u202fPM\u201312\u202fAM"
+                },
+                {
+                    "day": "Thursday",
+                    "hours": "12\u202fPM\u201312\u202fAM"
+                },
+                {
+                    "day": "Friday",
+                    "hours": "12\u202fPM\u201312\u202fAM"
+                },
+                {
+                    "day": "Saturday",
+                    "hours": "12\u202fPM\u201312\u202fAM"
+                },
+                {
+                    "day": "Sunday",
+                    "hours": "12\u202fPM\u201312\u202fAM"
+                }
+            ]
+        },
+        "peopleAlsoSearch": [],
+        "placesTags": [],
+        "reviewsTags": [],
+        "additionalInfo": {
+            "From the business": [
+                {
+                    "Identifies as women-owned": true
+                }
+            ],
+            "Service options": [
+                {
+                    "Curbside pickup": true
+                },
+                {
+                    "No-contact delivery": true
+                },
+                {
+                    "Delivery": true
+                },
+                {
+                    "Drive-through": true
+                },
+                {
+                    "Takeout": true
+                },
+                {
+                    "Dine-in": true
+                }
+            ],
+            "Popular for": [
+                {
+                    "Lunch": true
+                },
+                {
+                    "Dinner": true
+                },
+                {
+                    "Solo dining": true
+                }
+            ],
+            "Offerings": [
+                {
+                    "Coffee": true
+                },
+                {
+                    "Quick bite": true
+                },
+                {
+                    "Small plates": true
+                },
+                null,
+                null
+            ],
+            "Dining options": [
+                {
+                    "Brunch": true
+                },
+                {
+                    "Lunch": true
+                },
+                {
+                    "Dinner": true
+                },
+                {
+                    "Catering": true
+                },
+                {
+                    "Dessert": true
+                }
+            ],
+            "Amenities": [
+                {
+                    "Gender-neutral restroom": true
+                },
+                {
+                    "Restroom": true
+                }
+            ],
+            "Crowd": [
+                {
+                    "Family-friendly": true
+                },
+                {
+                    "Groups": true
+                },
+                {
+                    "LGBTQ+ friendly": true
+                }
+            ],
+            "Planning": [
+                {
+                    "Reservations required": true
+                },
+                {
+                    "Accepts reservations": true
+                }
+            ],
+            "Payments": [
+                {
+                    "Credit cards": true
+                },
+                {
+                    "NFC mobile payments": true
+                }
+            ],
+            "Children": [
+                {
+                    "Good for kids": true
+                }
+            ],
+            "Parking": [
+                {
+                    "Free parking lot": true
+                },
+                null
+            ],
+            "Pets": [
+                {
+                    "Dogs allowed outside": true
+                }
+            ]
+        },
+        "gasPrices": [],
+        "url": "https://www.google.com/maps/search/?api=1&query=I%20Love%20Chillies&query_place_id=ChIJE2GCdQD7DDkR-0wxKE9nbZs",
+        "searchPageUrl": "https://www.google.com/maps/search/restaurant/@28.714860628189648,77.35157466482019,15z?hl=en",
+        "searchString": "restaurant",
+        "language": "en",
+        "isAdvertisement": false,
+        "imageUrl": "https://lh3.googleusercontent.com/p/AF1QipPyCoNArzUZtIpGT3segFr5ZSA3rji4bQnMbvxw=w536-h240-k-no",
+        "kgmid": "/g/11lckyrhzg"
+    },
+    {
+        "rank": 2,
+        "title": "\u0905\u0930\u094d\u091c\u0941\u0928 \u091a\u093e\u0901\u091f \u092d\u0923\u094d\u0921\u093e\u0930",
+        "price": null,
+        "categoryName": "Restaurant",
+        "address": "Abidpur Manki, Uttar Pradesh 201204, India",
+        "neighborhood": null,
+        "street": null,
+        "city": "Abidpur Manki",
+        "postalCode": null,
+        "state": "Uttar Pradesh",
+        "countryCode": "IN",
+        "phone": "+91 73518 52481",
+        "phoneUnformatted": "+917351852481",
+        "claimThisBusiness": true,
+        "location": {
+            "lat": 28.7978898,
+            "lng": 77.5689718
+        },
+        "totalScore": 2.3,
+        "permanentlyClosed": false,
+        "temporarilyClosed": false,
+        "placeId": "ChIJQdUCk9aKDDkRBnLAh6RYoaQ",
+        "categories": [
+            "Restaurant"
+        ],
+        "fid": "0x390c8ad69302d541:0xa4a158a487c07206",
+        "cid": "11862860357146014214",
+        "reviewsCount": 3,
+        "imagesCount": 7,
+        "imageCategories": [],
+        "scrapedAt": "2025-04-23T14:42:36.331Z",
+        "googleFoodUrl": null,
+        "hotelAds": [],
+        "openingHours": [],
+        "peopleAlsoSearch": [],
+        "placesTags": [],
+        "reviewsTags": [],
+        "additionalInfo": {
+            "Service options": [
+                {
+                    "Takeout": true
+                },
+                {
+                    "Dine-in": true
+                }
+            ],
+            "Offerings": [
+                {
+                    "Small plates": true
+                }
+            ],
+            "Dining options": [
+                {
+                    "Lunch": true
+                }
+            ],
+            "Children": [
+                {
+                    "Good for kids": true
+                }
+            ]
+        },
+        "gasPrices": [],
+        "url": "https://www.google.com/maps/search/?api=1&query=%E0%A4%85%E0%A4%B0%E0%A5%8D%E0%A4%9C%E0%A5%81%E0%A4%A8%20%E0%A4%9A%E0%A4%BE%E0%A4%81%E0%A4%9F%20%E0%A4%AD%E0%A4%A3%E0%A5%8D%E0%A4%A1%E0%A4%BE%E0%A4%B0&query_place_id=ChIJQdUCk9aKDDkRBnLAh6RYoaQ",
+        "searchPageUrl": "https://www.google.com/maps/search/restaurant/@28.805107410905162,77.59146614690644,15z?hl=en",
+        "searchString": "restaurant",
+        "language": "en",
+        "isAdvertisement": false,
+        "imageUrl": "https://lh3.googleusercontent.com/p/AF1QipOjc-mAqcXfRgrzXy6Qx_vSlyZpHq5-JSdBuXdv=w408-h723-k-no",
+        "kgmid": "/g/11t9cvw02b"
+    },
+    {
+        "rank": 1,
+        "title": "Mahapooran",
+        "subTitle": "\u092e\u0939\u093e\u092a\u0942\u0930\u0923",
+        "price": "\u20b91\u2013200",
+        "categoryName": "South Indian restaurant",
+        "address": "LGF 83, Wave Galleria Mall, Wave City Marg, Wave City, Ghaziabad, Uttar Pradesh 201015, India",
+        "neighborhood": "Wave City",
+        "street": "LGF 83, Wave Galleria Mall, Wave City Marg",
+        "city": "Ghaziabad",
+        "postalCode": "201015",
+        "state": "Uttar Pradesh",
+        "countryCode": "IN",
+        "phone": "+91 89237 91133",
+        "phoneUnformatted": "+918923791133",
+        "claimThisBusiness": false,
+        "location": {
+            "lat": 28.6540353,
+            "lng": 77.5060965
+        },
+        "totalScore": 4.9,
+        "permanentlyClosed": false,
+        "temporarilyClosed": false,
+        "placeId": "ChIJlwPRAgDzDDkR6RuB1hffM_o",
+        "categories": [
+            "South Indian restaurant",
+            "Cafe",
+            "Indian restaurant",
+            "Restaurant"
+        ],
+        "fid": "0x390cf30002d10397:0xfa33df17d6811be9",
+        "cid": "18028999026770254825",
+        "reviewsCount": 96,
+        "imagesCount": 25,
+        "imageCategories": [],
+        "scrapedAt": "2025-04-23T14:42:51.173Z",
+        "googleFoodUrl": null,
+        "hotelAds": [],
+        "openingHours": [
+            {
+                "day": "Monday",
+                "hours": "9\u202fAM to 11\u202fPM"
+            },
+            {
+                "day": "Tuesday",
+                "hours": "9\u202fAM to 11\u202fPM"
+            },
+            {
+                "day": "Wednesday",
+                "hours": "9\u202fAM to 11\u202fPM"
+            },
+            {
+                "day": "Thursday",
+                "hours": "9\u202fAM to 11\u202fPM"
+            },
+            {
+                "day": "Friday",
+                "hours": "9\u202fAM to 11\u202fPM"
+            },
+            {
+                "day": "Saturday",
+                "hours": "9\u202fAM to 11\u202fPM"
+            },
+            {
+                "day": "Sunday",
+                "hours": "9\u202fAM to 11\u202fPM"
+            }
+        ],
+        "peopleAlsoSearch": [],
+        "placesTags": [],
+        "reviewsTags": [],
+        "additionalInfo": {
+            "Service options": [
+                {
+                    "Curbside pickup": true
+                },
+                {
+                    "No-contact delivery": true
+                },
+                {
+                    "Delivery": true
+                },
+                {
+                    "Drive-through": true
+                },
+                {
+                    "Takeout": true
+                },
+                {
+                    "Dine-in": true
+                }
+            ],
+            "Popular for": [
+                {
+                    "Solo dining": true
+                }
+            ],
+            "Offerings": [
+                {
+                    "Quick bite": true
+                },
+                {
+                    "Small plates": true
+                },
+                {
+                    "Vegetarian options only": true
+                },
+                null
+            ],
+            "Dining options": [
+                {
+                    "Brunch": true
+                },
+                {
+                    "Lunch": true
+                },
+                {
+                    "Dinner": true
+                },
+                {
+                    "Catering": true
+                },
+                {
+                    "Counter service": true
+                },
+                {
+                    "Dessert": true
+                },
+                {
+                    "Seating": true
+                }
+            ],
+            "Atmosphere": [
+                {
+                    "Casual": true
+                }
+            ],
+            "Crowd": [
+                {
+                    "Groups": true
+                }
+            ],
+            "Payments": [
+                {
+                    "Google Pay": true
+                }
+            ],
+            "Children": [
+                {
+                    "Good for kids": true
+                }
+            ],
+            "Parking": [
+                {
+                    "Free parking lot": true
+                },
+                null
+            ]
+        },
+        "gasPrices": [],
+        "url": "https://www.google.com/maps/search/?api=1&query=Mahapooran&query_place_id=ChIJlwPRAgDzDDkR6RuB1hffM_o",
+        "searchPageUrl": "https://www.google.com/maps/search/restaurant/@28.654696106379305,77.52292572345323,15z?hl=en",
+        "searchString": "restaurant",
+        "language": "en",
+        "isAdvertisement": false,
+        "imageUrl": "https://lh3.googleusercontent.com/p/AF1QipOxaB2NvJHT-As-7u4t-ZzmoiFSNRnBDJ8hKuqz=w408-h873-k-no",
+        "kgmid": "/g/11vybmqsrf"
+    },
+    {
+        "rank": 1,
+        "title": "JFC CHAAP",
+        "subTitle": "JFC \u091a\u093e\u092a",
+        "price": null,
+        "categoryName": "Indian restaurant",
+        "address": "601, NCR Region L Block, Chock, Tyagi Rd, Ghaziabad, Uttar Pradesh 201102, India",
+        "neighborhood": null,
+        "street": "601, NCR Region L Block, Chock, Tyagi Rd",
+        "city": "Ghaziabad",
+        "postalCode": "201102",
+        "state": "Uttar Pradesh",
+        "countryCode": "IN",
+        "phone": "+91 99991 51641",
+        "phoneUnformatted": "+919999151641",
+        "claimThisBusiness": false,
+        "location": {
+            "lat": 28.7310219,
+            "lng": 77.3291173
+        },
+        "totalScore": 5,
+        "permanentlyClosed": false,
+        "temporarilyClosed": false,
+        "placeId": "ChIJrdmFBjH5DDkRFO6fQcvUdgE",
+        "categories": [
+            "Indian restaurant"
+        ],
+        "fid": "0x390cf9310685d9ad:0x176d4cb419fee14",
+        "cid": "105505610734235156",
+        "reviewsCount": 4,
+        "imagesCount": 4,
+        "imageCategories": [],
+        "scrapedAt": "2025-04-23T14:43:05.049Z",
+        "googleFoodUrl": null,
+        "hotelAds": [],
+        "openingHours": [
+            {
+                "day": "Monday",
+                "hours": "12:01 to 11\u202fPM"
+            },
+            {
+                "day": "Tuesday",
+                "hours": "12:01 to 11\u202fPM"
+            },
+            {
+                "day": "Wednesday",
+                "hours": "12:01 to 11\u202fPM"
+            },
+            {
+                "day": "Thursday",
+                "hours": "12:01 to 11\u202fPM"
+            },
+            {
+                "day": "Friday",
+                "hours": "12:01 to 11\u202fPM"
+            },
+            {
+                "day": "Saturday",
+                "hours": "12:01 to 11\u202fPM"
+            },
+            {
+                "day": "Sunday",
+                "hours": "12:01 to 11\u202fPM"
+            }
+        ],
+        "peopleAlsoSearch": [],
+        "placesTags": [],
+        "reviewsTags": [],
+        "additionalInfo": {
+            "Service options": [
+                {
+                    "No-contact delivery": true
+                },
+                {
+                    "Delivery": true
+                },
+                {
+                    "Drive-through": true
+                },
+                {
+                    "Takeout": true
+                },
+                {
+                    "Dine-in": true
+                }
+            ],
+            "Popular for": [
+                {
+                    "Solo dining": true
+                }
+            ],
+            "Offerings": [
+                {
+                    "Quick bite": true
+                },
+                {
+                    "Small plates": true
+                }
+            ],
+            "Dining options": [
+                {
+                    "Lunch": true
+                },
+                {
+                    "Dinner": true
+                }
+            ],
+            "Atmosphere": [
+                {
+                    "Casual": true
+                }
+            ],
+            "Crowd": [
+                {
+                    "Groups": true
+                }
+            ],
+            "Payments": [
+                {
+                    "NFC mobile payments": true
+                }
+            ],
+            "Children": [
+                {
+                    "Good for kids": true
+                }
+            ]
+        },
+        "gasPrices": [],
+        "url": "https://www.google.com/maps/search/?api=1&query=JFC%20CHAAP&query_place_id=ChIJrdmFBjH5DDkRFO6fQcvUdgE",
+        "searchPageUrl": "https://www.google.com/maps/search/restaurant/@28.74494288909482,77.35157466482019,15z?hl=en",
+        "searchString": "restaurant",
+        "language": "en",
+        "isAdvertisement": false,
+        "imageUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=aMiVw336HTJydqFtf0xZ7w&cb_client=search.gws-prod.gps&w=408&h=240&yaw=294.92184&pitch=0&thumbfov=100",
+        "kgmid": "/g/11ts9kbkrk"
+    },
+    {
+        "rank": 3,
+        "title": "The Hut",
+        "subTitle": "\u0926 \u0939\u091f",
+        "price": "\u20b9800\u20131,000",
+        "categoryName": "Family restaurant",
+        "address": "PC29+8GC, Sihani Rd, Sehani Khurd, Raj Nagar Extension, Ghaziabad, Uttar Pradesh 201003, India",
+        "neighborhood": "Sehani Khurd, Raj Nagar Extension",
+        "street": "PC29+8GC, Sihani Rd",
+        "city": "Ghaziabad",
+        "postalCode": "201003",
+        "state": "Uttar Pradesh",
+        "countryCode": "IN",
+        "phone": "+91 72919 12240",
+        "phoneUnformatted": "+917291912240",
+        "claimThisBusiness": false,
+        "location": {
+            "lat": 28.7008177,
+            "lng": 77.4187487
+        },
+        "totalScore": 4.8,
+        "permanentlyClosed": false,
+        "temporarilyClosed": false,
+        "placeId": "ChIJbYmhWnfxDDkRUCexji26Gm0",
+        "categories": [
+            "Family restaurant",
+            "Hookah store"
+        ],
+        "fid": "0x390cf1775aa1896d:0x6d1aba2d8eb12750",
+        "cid": "7861800804358891344",
+        "reviewsCount": 32,
+        "imagesCount": 65,
+        "imageCategories": [],
+        "scrapedAt": "2025-04-23T14:43:19.267Z",
+        "googleFoodUrl": null,
+        "hotelAds": [],
+        "openingHours": [
+            {
+                "day": "Monday",
+                "hours": "11\u202fAM to 11:30\u202fPM"
+            },
+            {
+                "day": "Tuesday",
+                "hours": "11\u202fAM to 11:30\u202fPM"
+            },
+            {
+                "day": "Wednesday",
+                "hours": "11\u202fAM to 11:30\u202fPM"
+            },
+            {
+                "day": "Thursday",
+                "hours": "11\u202fAM to 11:30\u202fPM"
+            },
+            {
+                "day": "Friday",
+                "hours": "11\u202fAM to 11:30\u202fPM"
+            },
+            {
+                "day": "Saturday",
+                "hours": "11\u202fAM to 11:30\u202fPM"
+            },
+            {
+                "day": "Sunday",
+                "hours": "11\u202fAM to 11:30\u202fPM"
+            }
+        ],
+        "peopleAlsoSearch": [],
+        "placesTags": [],
+        "reviewsTags": [],
+        "additionalInfo": {
+            "Service options": [
+                {
+                    "Outdoor seating": true
+                },
+                {
+                    "No-contact delivery": true
+                },
+                {
+                    "Delivery": true
+                },
+                {
+                    "Dine-in": true
+                }
+            ],
+            "Highlights": [
+                {
+                    "Fireplace": true
+                },
+                {
+                    "Rooftop seating": true
+                },
+                {
+                    "Sports": true
+                }
+            ],
+            "Popular for": [
+                {
+                    "Lunch": true
+                },
+                {
+                    "Solo dining": true
+                }
+            ],
+            "Accessibility": [
+                {
+                    "Assistive hearing loop": true
+                },
+                {
+                    "Wheelchair accessible parking lot": true
+                },
+                {
+                    "Wheelchair accessible seating": true
+                },
+                {
+                    "Wheelchair accessible entrance": false
+                },
+                {
+                    "Wheelchair accessible restroom": false
+                }
+            ],
+            "Offerings": [
+                {
+                    "All you can eat": true
+                },
+                {
+                    "Cocktails": true
+                },
+                {
+                    "Coffee": true
+                },
+                {
+                    "Halal food": true
+                },
+                {
+                    "Happy hour food": true
+                },
+                {
+                    "Late-night food": true
+                },
+                {
+                    "Organic dishes": true
+                },
+                {
+                    "Private dining room": true
+                },
+                {
+                    "Quick bite": true
+                },
+                {
+                    "Salad bar": true
+                },
+                {
+                    "Small plates": true
+                },
+                {
+                    "Vegan options": true
+                },
+                {
+                    "Vegetarian options": true
+                },
+                null,
+                null
+            ],
+            "Dining options": [
+                {
+                    "Lunch": true
+                },
+                {
+                    "Dinner": true
+                },
+                {
+                    "Catering": true
+                },
+                {
+                    "Dessert": true
+                },
+                {
+                    "Seating": true
+                }
+            ],
+            "Amenities": [
+                {
+                    "Bar onsite": true
+                },
+                {
+                    "Gender-neutral restroom": true
+                },
+                {
+                    "Wi-Fi": true
+                },
+                {
+                    "Free Wi-Fi": true
+                }
+            ],
+            "Atmosphere": [
+                {
+                    "Casual": true
+                }
+            ],
+            "Crowd": [
+                {
+                    "Family-friendly": true
+                },
+                {
+                    "Groups": true
+                },
+                {
+                    "LGBTQ+ friendly": true
+                }
+            ],
+            "Planning": [
+                {
+                    "Accepts reservations": true
+                }
+            ],
+            "Payments": [
+                {
+                    "Cash-only": true
+                },
+                {
+                    "Debit cards": true
+                },
+                {
+                    "Google Pay": true
+                },
+                {
+                    "NFC mobile payments": true
+                }
+            ],
+            "Children": [
+                {
+                    "Good for kids": true
+                },
+                {
+                    "Has changing table(s)": true
+                },
+                {
+                    "High chairs": true
+                },
+                {
+                    "Kids' menu": true
+                }
+            ],
+            "Parking": [
+                {
+                    "Free parking lot": true
+                },
+                null
+            ],
+            "Pets": [
+                {
+                    "Dogs allowed outside": true
+                }
+            ]
+        },
+        "gasPrices": [],
+        "url": "https://www.google.com/maps/search/?api=1&query=The%20Hut&query_place_id=ChIJbYmhWnfxDDkRUCexji26Gm0",
+        "searchPageUrl": "https://www.google.com/maps/search/restaurant/@28.714860628189648,77.4201150882734,15z?hl=en",
+        "searchString": "restaurant",
+        "language": "en",
+        "isAdvertisement": false,
+        "imageUrl": "https://lh3.googleusercontent.com/p/AF1QipOBEfkKSUrFptSPOCMZASsMCfxjeuG2GEyvdqfk=w533-h240-k-no",
+        "kgmid": "/g/11l2_f_85k"
+    }
+]

@@ -9,7 +9,7 @@ task_client = client.task('mrigaanksh~google-maps-scraper-task')  # Replace with
 
 # Define task input parameters
 task_input = {
-    "locationQuery": "Ghaziabad, India",
+    "locationQuery": "Delhi, India",
     "searchStringsArray": ["restaurant"]
 }
 

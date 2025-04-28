@@ -6,6 +6,11 @@ import { WavyBackground } from "@/components/ui/wavy-background";
 import { GlareCard } from "@/components/ui/glare-card";
 import { StickyScroll } from "@/components/ui/sticky-scroll-reveal";
 import { InfiniteMovingCards } from "@/components/ui/infinite-moving-cards";
+import Link from 'next/link';
+
+
+
+import { useRouter } from 'next/navigation';  
 
 const stickyContent = [
   {
@@ -74,9 +79,15 @@ export default function AgentsPage() {
       {/* Spotlight Card */}
       <div className="z-10 relative mt-20">
         <CardSpotlight className="h-64 w-64 p-6 rounded-lg shadow-lg bg-gradient-to-r from-blue-500 via-purple-500 to-indigo-600">
-          <button className="text-2xl font-extrabold text-white text-center mt-2 shadow-md p-2 rounded-md hover:bg-white hover:text-black transition duration-300">
-            Generate Your Lead
-          </button>
+        <Link href="/agents/generate-lead">
+
+            <div className="group flex items-center justify-center gap-2 text-2xl font-extrabold text-white text-center mt-2 shadow-md p-2 rounded-md hover:bg-white hover:text-black transition duration-300 cursor-pointer">
+              Generate Your Lead
+              <span className="transition-transform transform group-hover:translate-x-1 duration-300">
+                ➜
+              </span>
+            </div>
+          </Link>
 
           <div className="text-neutral-200 mt-4 text-sm font-medium">
             <p className="text-lg font-semibold text-white">Welcome to the Lead Generation Portal</p>
