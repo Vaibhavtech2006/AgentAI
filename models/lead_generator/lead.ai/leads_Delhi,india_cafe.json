@@ -1,0 +1,804 @@
+[
+    {
+        "title": "Kishori ji cafe",
+        "subTitle": "\u0915\u093f\u0936\u094b\u0930\u0940 \u091c\u0940 \u0915\u0948\u092b\u0947",
+        "price": "\u20b91\u2013200",
+        "categoryName": "Cafe",
+        "address": "KH.NO-564, SHOP NO-1, KHATANA MARKET, 30, near Lifeline medical, Sultanpur, New Delhi, Delhi, 110030, India",
+        "neighborhood": "Sultanpur",
+        "street": "KH.NO-564, SHOP NO-1, KHATANA MARKET, 30, near Lifeline medical",
+        "city": "New Delhi, Delhi",
+        "postalCode": "110030",
+        "state": "Delhi",
+        "countryCode": "IN",
+        "website": "https://youtube.com/@shankaryadav3705?si=6fhEkOd-VD1YsCVy",
+        "phone": "+91 83685 50659",
+        "phoneUnformatted": "+918368550659",
+        "claimThisBusiness": false,
+        "location": {
+            "lat": 28.4941185,
+            "lng": 77.1605545
+        },
+        "totalScore": 4.9,
+        "permanentlyClosed": false,
+        "temporarilyClosed": false,
+        "placeId": "ChIJrx64h3IfDTkRPSYYRTkUsWI",
+        "categories": [
+            "Cafe"
+        ],
+        "fid": "0x390d1f7287b81eaf:0x62b114394518263d",
+        "cid": "7111487522799625789",
+        "reviewsCount": 36,
+        "imagesCount": 31,
+        "imageCategories": [],
+        "scrapedAt": "2025-04-29T14:37:52.916Z",
+        "googleFoodUrl": null,
+        "hotelAds": [],
+        "openingHours": [
+            {
+                "day": "Monday",
+                "hours": "10\u202fAM to 10\u202fPM"
+            },
+            {
+                "day": "Tuesday",
+                "hours": "10\u202fAM to 10\u202fPM"
+            },
+            {
+                "day": "Wednesday",
+                "hours": "10\u202fAM to 10\u202fPM"
+            },
+            {
+                "day": "Thursday",
+                "hours": "10\u202fAM to 10\u202fPM"
+            },
+            {
+                "day": "Friday",
+                "hours": "10\u202fAM to 10\u202fPM"
+            },
+            {
+                "day": "Saturday",
+                "hours": "10\u202fAM to 10\u202fPM"
+            },
+            {
+                "day": "Sunday",
+                "hours": "10\u202fAM to 10\u202fPM"
+            }
+        ],
+        "peopleAlsoSearch": [],
+        "placesTags": [],
+        "reviewsTags": [],
+        "additionalInfo": {
+            "Service options": [
+                {
+                    "Curbside pickup": true
+                },
+                {
+                    "No-contact delivery": true
+                },
+                {
+                    "Delivery": true
+                },
+                {
+                    "Drive-through": true
+                },
+                {
+                    "Takeout": true
+                },
+                {
+                    "Dine-in": true
+                }
+            ],
+            "Offerings": [
+                {
+                    "Coffee": true
+                },
+                {
+                    "Quick bite": true
+                },
+                {
+                    "Small plates": true
+                },
+                {
+                    "Vegetarian options only": true
+                }
+            ],
+            "Atmosphere": [
+                {
+                    "Casual": true
+                }
+            ],
+            "Crowd": [
+                {
+                    "Groups": true
+                }
+            ],
+            "Payments": [
+                {
+                    "NFC mobile payments": true
+                }
+            ]
+        },
+        "gasPrices": [],
+        "url": "https://www.google.com/maps/search/?api=1&query=Kishori%20ji%20cafe&query_place_id=ChIJrx64h3IfDTkRPSYYRTkUsWI",
+        "searchPageUrl": "https://www.google.com/maps/search/cafe/@28.478514312103233,77.1604721059534,15z?hl=en",
+        "searchString": "cafe",
+        "language": "en",
+        "rank": 1,
+        "isAdvertisement": false,
+        "imageUrl": "https://lh3.googleusercontent.com/p/AF1QipMR1eH5QouIg34dVapqVBQMYz-Y4VeFcqslNHUE=w408-h867-k-no",
+        "kgmid": "/g/11y22jczt_"
+    },
+    {
+        "title": "Sir John Bakery Cafe",
+        "subTitle": "\u0938\u093f\u0930 \u091c\u0949\u0928 \u092c\u0915\u0930\u0940 \u0915\u0948\u092b\u0947",
+        "price": null,
+        "categoryName": "Cafe",
+        "address": "Khasra no. 318, SSC Enterprises, Sultanpur Main Road, Sultanpur, New Delhi, Delhi 110030, India",
+        "neighborhood": "Sultanpur",
+        "street": "Khasra no. 318, SSC Enterprises, Sultanpur Main Road",
+        "city": "New Delhi",
+        "postalCode": "110030",
+        "state": "Delhi",
+        "countryCode": "IN",
+        "website": "http://www.instagram.com/sirjohnbakerycafe",
+        "phone": "+91 72939 11911",
+        "phoneUnformatted": "+917293911911",
+        "claimThisBusiness": false,
+        "location": {
+            "lat": 28.4943653,
+            "lng": 77.1652513
+        },
+        "totalScore": 4.3,
+        "permanentlyClosed": false,
+        "temporarilyClosed": false,
+        "placeId": "ChIJ7bfasYcfDTkRifZ0n6i5Evc",
+        "categories": [
+            "Cafe",
+            "Bakery"
+        ],
+        "fid": "0x390d1f87b1dab7ed:0xf712b9a89f74f689",
+        "cid": "17803496410829878921",
+        "reviewsCount": 149,
+        "imagesCount": 102,
+        "imageCategories": [],
+        "scrapedAt": "2025-04-29T14:37:52.917Z",
+        "reserveTableUrl": "https://www.google.com/maps/reserve/v/dine/c/Ru-603AKimA?source=pa&opi=79508299&hl=en-US&gei=POQQaN6jCszN0PEP-vn7iAI&sourceurl=https://www.google.com/service/MapsSearchService/Search?hl%3Den%26authuser%3D0%26gl%3Dus%26q%3Dcafe%26tbm%3Dmap",
+        "googleFoodUrl": null,
+        "hotelAds": [],
+        "openingHours": [
+            {
+                "day": "Monday",
+                "hours": "8\u202fAM to 10\u202fPM"
+            },
+            {
+                "day": "Tuesday",
+                "hours": "8\u202fAM to 10\u202fPM"
+            },
+            {
+                "day": "Wednesday",
+                "hours": "8\u202fAM to 10\u202fPM"
+            },
+            {
+                "day": "Thursday",
+                "hours": "8\u202fAM to 10\u202fPM"
+            },
+            {
+                "day": "Friday",
+                "hours": "8\u202fAM to 10\u202fPM"
+            },
+            {
+                "day": "Saturday",
+                "hours": "8\u202fAM to 10\u202fPM"
+            },
+            {
+                "day": "Sunday",
+                "hours": "8\u202fAM to 10\u202fPM"
+            }
+        ],
+        "peopleAlsoSearch": [],
+        "placesTags": [],
+        "reviewsTags": [],
+        "additionalInfo": {
+            "Service options": [
+                {
+                    "No-contact delivery": true
+                },
+                {
+                    "Delivery": true
+                },
+                {
+                    "In-store pickup": true
+                },
+                {
+                    "Takeout": true
+                },
+                {
+                    "Dine-in": true
+                },
+                {
+                    "Same-day delivery": true
+                }
+            ],
+            "Offerings": [
+                {
+                    "Coffee": true
+                }
+            ],
+            "Planning": [
+                {
+                    "Quick visit": true
+                }
+            ],
+            "Payments": [
+                {
+                    "Credit cards": true
+                },
+                {
+                    "Debit cards": true
+                },
+                {
+                    "NFC mobile payments": true
+                },
+                {
+                    "Credit cards": true
+                }
+            ]
+        },
+        "gasPrices": [],
+        "url": "https://www.google.com/maps/search/?api=1&query=Sir%20John%20Bakery%20Cafe&query_place_id=ChIJ7bfasYcfDTkRifZ0n6i5Evc",
+        "searchPageUrl": "https://www.google.com/maps/search/cafe/@28.478514312103233,77.1604721059534,15z?hl=en",
+        "searchString": "cafe",
+        "language": "en",
+        "rank": 2,
+        "isAdvertisement": false,
+        "imageUrl": "https://lh3.googleusercontent.com/p/AF1QipMkcS663uozfEKODa_Bh29-uuuQLi8Ra5VgCam8=w408-h306-k-no",
+        "kgmid": "/g/11r3s0j5n2"
+    },
+    {
+        "title": "Cafe Kuzino",
+        "subTitle": "\u0915\u0948\u092b\u0947 \u0915\u0942\u091c\u0940\u0928\u094b",
+        "price": "\u20b91\u2013200",
+        "categoryName": "Cafe",
+        "address": "Ground floor, Galaxy Apartments, Shop no 1, South, Gadaipur, New Delhi, Delhi 110030, India",
+        "neighborhood": "Gadaipur, Gadpur Farm, DLF Farms",
+        "street": "Ground floor, Galaxy Apartments, Shop no 1, South",
+        "city": "New Delhi",
+        "postalCode": "110030",
+        "state": "Delhi",
+        "countryCode": "IN",
+        "phone": "+91 98717 95885",
+        "phoneUnformatted": "+919871795885",
+        "claimThisBusiness": false,
+        "location": {
+            "lat": 28.48033,
+            "lng": 77.1578862
+        },
+        "totalScore": 4.6,
+        "permanentlyClosed": false,
+        "temporarilyClosed": false,
+        "placeId": "ChIJcdnZZsAfDTkREOkyVeLZVo4",
+        "categories": [
+            "Cafe"
+        ],
+        "fid": "0x390d1fc066d9d971:0x8e56d9e25532e910",
+        "cid": "10256624767498119440",
+        "reviewsCount": 19,
+        "imagesCount": 8,
+        "imageCategories": [],
+        "scrapedAt": "2025-04-29T14:37:52.919Z",
+        "googleFoodUrl": null,
+        "hotelAds": [],
+        "openingHours": [
+            {
+                "day": "Monday",
+                "hours": "5 to 11\u202fPM"
+            },
+            {
+                "day": "Tuesday",
+                "hours": "5 to 11\u202fPM"
+            },
+            {
+                "day": "Wednesday",
+                "hours": "5 to 11\u202fPM"
+            },
+            {
+                "day": "Thursday",
+                "hours": "5 to 11\u202fPM"
+            },
+            {
+                "day": "Friday",
+                "hours": "5 to 11\u202fPM"
+            },
+            {
+                "day": "Saturday",
+                "hours": "11\u202fAM to 11\u202fPM"
+            },
+            {
+                "day": "Sunday",
+                "hours": "11\u202fAM to 11\u202fPM"
+            }
+        ],
+        "peopleAlsoSearch": [],
+        "placesTags": [],
+        "reviewsTags": [],
+        "additionalInfo": {
+            "Service options": [
+                {
+                    "Curbside pickup": true
+                },
+                {
+                    "No-contact delivery": true
+                },
+                {
+                    "Delivery": true
+                },
+                {
+                    "Takeout": true
+                },
+                {
+                    "Dine-in": true
+                }
+            ],
+            "Highlights": [
+                {
+                    "Great coffee": true
+                }
+            ],
+            "Popular for": [
+                {
+                    "Solo dining": true
+                }
+            ],
+            "Offerings": [
+                {
+                    "Coffee": true
+                },
+                {
+                    "Late-night food": true
+                },
+                {
+                    "Organic dishes": true
+                },
+                {
+                    "Quick bite": true
+                },
+                {
+                    "Small plates": true
+                },
+                {
+                    "Vegetarian options": true
+                }
+            ],
+            "Dining options": [
+                {
+                    "Brunch": true
+                },
+                {
+                    "Dinner": true
+                },
+                {
+                    "Dessert": true
+                },
+                {
+                    "Seating": true
+                }
+            ],
+            "Amenities": [
+                {
+                    "Wi-Fi": true
+                },
+                {
+                    "Free Wi-Fi": true
+                }
+            ],
+            "Atmosphere": [
+                {
+                    "Casual": true
+                }
+            ],
+            "Crowd": [
+                {
+                    "Family-friendly": true
+                },
+                {
+                    "Groups": true
+                },
+                {
+                    "LGBTQ+ friendly": true
+                }
+            ],
+            "Planning": [
+                {
+                    "Accepts reservations": true
+                }
+            ],
+            "Payments": [
+                {
+                    "NFC mobile payments": true
+                }
+            ],
+            "Children": [
+                {
+                    "Good for kids": true
+                },
+                {
+                    "High chairs": true
+                },
+                {
+                    "Kids' menu": true
+                }
+            ],
+            "Pets": [
+                {
+                    "Dogs allowed inside": true
+                },
+                {
+                    "Dogs allowed outside": true
+                }
+            ]
+        },
+        "gasPrices": [],
+        "url": "https://www.google.com/maps/search/?api=1&query=Cafe%20Kuzino&query_place_id=ChIJcdnZZsAfDTkREOkyVeLZVo4",
+        "searchPageUrl": "https://www.google.com/maps/search/cafe/@28.478514312103233,77.1604721059534,15z?hl=en",
+        "searchString": "cafe",
+        "language": "en",
+        "rank": 3,
+        "isAdvertisement": false,
+        "imageUrl": "https://lh3.googleusercontent.com/p/AF1QipPjH9eOZZ4H-PEwloVTRvNceClhQcy6HuR1AMMd=w408-h408-k-no",
+        "kgmid": "/g/11y448trdr"
+    },
+    {
+        "title": "Shooters Cafe",
+        "price": "\u20b9200\u2013400",
+        "categoryName": "Cafe",
+        "address": "Shooters Cafe, above Clove Dental, On Roof, opposite Tivoli Garden Resort , Hotel, Block A1, Chhatarpur, New Delhi, Delhi, 110074, India",
+        "neighborhood": "Block A1, Chhatarpur",
+        "street": "Shooters Cafe, above Clove Dental, On Roof, opposite Tivoli Garden Resort , Hotel",
+        "city": "New Delhi, Delhi",
+        "postalCode": "110074",
+        "state": "Delhi",
+        "countryCode": "IN",
+        "phone": "+91 98180 47746",
+        "phoneUnformatted": "+919818047746",
+        "claimThisBusiness": false,
+        "location": {
+            "lat": 28.4962044,
+            "lng": 77.1847435
+        },
+        "totalScore": 4.5,
+        "permanentlyClosed": false,
+        "temporarilyClosed": false,
+        "placeId": "ChIJu7CWs3YfDTkRJXLLA0z2eU8",
+        "categories": [
+            "Cafe",
+            "Asian restaurant"
+        ],
+        "fid": "0x390d1f76b396b0bb:0x4f79f64c03cb7225",
+        "cid": "5726879207519908389",
+        "reviewsCount": 60,
+        "imagesCount": 94,
+        "imageCategories": [],
+        "scrapedAt": "2025-04-29T14:37:52.919Z",
+        "googleFoodUrl": null,
+        "hotelAds": [],
+        "openingHours": [
+            {
+                "day": "Monday",
+                "hours": "12 to 10\u202fPM"
+            },
+            {
+                "day": "Tuesday",
+                "hours": "12 to 10\u202fPM"
+            },
+            {
+                "day": "Wednesday",
+                "hours": "12 to 10\u202fPM"
+            },
+            {
+                "day": "Thursday",
+                "hours": "12 to 10\u202fPM"
+            },
+            {
+                "day": "Friday",
+                "hours": "12 to 10\u202fPM"
+            },
+            {
+                "day": "Saturday",
+                "hours": "12 to 10\u202fPM"
+            },
+            {
+                "day": "Sunday",
+                "hours": "12 to 10\u202fPM"
+            }
+        ],
+        "peopleAlsoSearch": [],
+        "placesTags": [],
+        "reviewsTags": [],
+        "additionalInfo": {
+            "Service options": [
+                {
+                    "Delivery": true
+                },
+                {
+                    "Takeout": true
+                },
+                {
+                    "Dine-in": true
+                }
+            ],
+            "Highlights": [
+                {
+                    "Great coffee": true
+                },
+                {
+                    "Great tea selection": true
+                },
+                {
+                    "Rooftop seating": true
+                },
+                {
+                    "Sports": true
+                }
+            ],
+            "Popular for": [
+                {
+                    "Solo dining": true
+                }
+            ],
+            "Offerings": [
+                {
+                    "Alcohol": true
+                },
+                {
+                    "Coffee": true
+                },
+                {
+                    "Quick bite": true
+                },
+                {
+                    "Small plates": true
+                },
+                null
+            ],
+            "Dining options": [
+                {
+                    "Lunch": true
+                },
+                {
+                    "Dinner": true
+                },
+                {
+                    "Dessert": true
+                },
+                {
+                    "Seating": true
+                }
+            ],
+            "Amenities": [
+                {
+                    "Bar onsite": true
+                },
+                {
+                    "Gender-neutral restroom": true
+                },
+                {
+                    "Restroom": true
+                },
+                {
+                    "Wi-Fi": true
+                },
+                {
+                    "Free Wi-Fi": true
+                }
+            ],
+            "Atmosphere": [
+                {
+                    "Casual": true
+                },
+                {
+                    "Trendy": true
+                }
+            ],
+            "Crowd": [
+                {
+                    "Family-friendly": true
+                },
+                {
+                    "Groups": true
+                },
+                {
+                    "LGBTQ+ friendly": true
+                }
+            ],
+            "Planning": [
+                {
+                    "Accepts reservations": true
+                }
+            ],
+            "Payments": [
+                {
+                    "Credit cards": true
+                },
+                {
+                    "NFC mobile payments": true
+                }
+            ],
+            "Children": [
+                {
+                    "Good for kids": true
+                },
+                {
+                    "High chairs": true
+                },
+                {
+                    "Kids' menu": true
+                }
+            ]
+        },
+        "gasPrices": [],
+        "url": "https://www.google.com/maps/search/?api=1&query=Shooters%20Cafe&query_place_id=ChIJu7CWs3YfDTkRJXLLA0z2eU8",
+        "searchPageUrl": "https://www.google.com/maps/search/cafe/@28.478514312103233,77.1604721059534,15z?hl=en",
+        "searchString": "cafe",
+        "language": "en",
+        "rank": 4,
+        "isAdvertisement": false,
+        "imageUrl": "https://lh3.googleusercontent.com/p/AF1QipPK7o2X-XZFkZ7qIT9Vz99az99P2aNidcPQ_yec=w408-h272-k-no",
+        "kgmid": "/g/11wj98h1gn"
+    },
+    {
+        "title": "CAFE BEANS",
+        "subTitle": "\u0915\u0948\u092b\u0947 \u092c\u0940\u0928\u094d\u0938",
+        "description": "Laid-back establishment serving coffees, smoothies & shakes, plus savoury snacks, cookies & muffins.",
+        "price": null,
+        "categoryName": "Cafe",
+        "address": "D 88, Upper Ground Floor, 100 Feet Rd, Chhatarpur, New Delhi, Delhi 110074, India",
+        "neighborhood": "Chhatarpur Enclave Phase 2, Chattarpur Enclave, Chhatarpur",
+        "street": "D 88, Upper Ground Floor, 100 Feet Rd",
+        "city": "New Delhi",
+        "postalCode": "110074",
+        "state": "Delhi",
+        "countryCode": "IN",
+        "claimThisBusiness": false,
+        "location": {
+            "lat": 28.5006338,
+            "lng": 77.1857679
+        },
+        "totalScore": 4.5,
+        "permanentlyClosed": false,
+        "temporarilyClosed": false,
+        "placeId": "ChIJAzFcBA0fDTkRLtSbWUdiG0c",
+        "categories": [
+            "Cafe"
+        ],
+        "fid": "0x390d1f0d045c3103:0x471b6247599bd42e",
+        "cid": "5123797059649655854",
+        "reviewsCount": 23,
+        "imagesCount": 22,
+        "imageCategories": [],
+        "scrapedAt": "2025-04-29T14:37:52.919Z",
+        "googleFoodUrl": null,
+        "hotelAds": [],
+        "openingHours": [
+            {
+                "day": "Monday",
+                "hours": "9\u202fAM to 12\u202fAM"
+            },
+            {
+                "day": "Tuesday",
+                "hours": "9\u202fAM to 12\u202fAM"
+            },
+            {
+                "day": "Wednesday",
+                "hours": "9\u202fAM to 12\u202fAM"
+            },
+            {
+                "day": "Thursday",
+                "hours": "9\u202fAM to 12\u202fAM"
+            },
+            {
+                "day": "Friday",
+                "hours": "9\u202fAM to 12\u202fAM"
+            },
+            {
+                "day": "Saturday",
+                "hours": "9\u202fAM to 12\u202fAM"
+            },
+            {
+                "day": "Sunday",
+                "hours": "9\u202fAM to 12\u202fAM"
+            }
+        ],
+        "peopleAlsoSearch": [],
+        "placesTags": [],
+        "reviewsTags": [],
+        "additionalInfo": {
+            "Service options": [
+                {
+                    "Delivery": true
+                },
+                {
+                    "Takeout": true
+                },
+                {
+                    "Dine-in": true
+                }
+            ],
+            "Highlights": [
+                {
+                    "Great coffee": true
+                },
+                {
+                    "Great dessert": true
+                },
+                {
+                    "Great tea selection": true
+                }
+            ],
+            "Popular for": [
+                {
+                    "Solo dining": true
+                }
+            ],
+            "Offerings": [
+                {
+                    "Coffee": true
+                },
+                {
+                    "Quick bite": true
+                },
+                {
+                    "Small plates": true
+                }
+            ],
+            "Dining options": [
+                {
+                    "Breakfast": true
+                },
+                {
+                    "Brunch": true
+                },
+                {
+                    "Dessert": true
+                }
+            ],
+            "Atmosphere": [
+                {
+                    "Casual": true
+                },
+                {
+                    "Cozy": true
+                },
+                {
+                    "Trendy": true
+                }
+            ],
+            "Crowd": [
+                {
+                    "College students": true
+                },
+                {
+                    "Groups": true
+                }
+            ],
+            "Payments": [
+                {
+                    "NFC mobile payments": true
+                }
+            ],
+            "Children": [
+                {
+                    "Good for kids": true
+                }
+            ]
+        },
+        "gasPrices": [],
+        "url": "https://www.google.com/maps/search/?api=1&query=CAFE%20BEANS&query_place_id=ChIJAzFcBA0fDTkRLtSbWUdiG0c",
+        "searchPageUrl": "https://www.google.com/maps/search/cafe/@28.478514312103233,77.1604721059534,15z?hl=en",
+        "searchString": "cafe",
+        "language": "en",
+        "rank": 5,
+        "isAdvertisement": false,
+        "imageUrl": "https://lh3.googleusercontent.com/p/AF1QipOe7Fi2tJjnMBd5GnGhEZiE4WXtpxPUQ3-Ar243=w408-h306-k-no",
+        "kgmid": "/g/11mgnnvkqc"
+    }
+]
