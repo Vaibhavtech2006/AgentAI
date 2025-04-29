@@ -6,13 +6,12 @@ export default function GenerateLeadPage() {
   const [location, setLocation] = useState("");
   const [dataType, setDataType] = useState("");
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     console.log("Location:", location);
     console.log("Data Type:", dataType);
-    // Yaha aap apna API call ya backend request laga sakte hain
   };
-
+  
   return (
     <div className="flex flex-col items-center justify-center min-h-screen p-4">
       <h2 className="text-3xl font-semibold mb-4">Lead Generation Portal</h2>
