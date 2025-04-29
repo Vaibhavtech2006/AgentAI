@@ -1,0 +1,1007 @@
+[
+    {
+        "title": "Udupi Krishna Restaurant",
+        "subTitle": "\u0909\u0921\u0941\u092a\u0940 \u0915\u0943\u0937\u094d\u0923\u093e \u0930\u0947\u0938\u094d\u091f\u094b\u0930\u0947\u0902\u091f",
+        "price": "\u20b9200\u2013600",
+        "categoryName": "South Indian restaurant",
+        "address": "Delhi-Meerut Expressway, OnTheWay2Ajay, Didwari, Village, Ghaziabad, Uttar Pradesh 201206, India",
+        "neighborhood": null,
+        "street": "Delhi-Meerut Expressway, OnTheWay2Ajay, Didwari, Village",
+        "city": "Ghaziabad, Didwari",
+        "postalCode": "201206",
+        "state": "Uttar Pradesh",
+        "countryCode": "IN",
+        "website": "http://udupikrishnarestaurant.com/",
+        "phone": "+91 70885 55540",
+        "phoneUnformatted": "+917088555540",
+        "claimThisBusiness": false,
+        "location": {
+            "lat": 28.7352446,
+            "lng": 77.5582932
+        },
+        "totalScore": 4.6,
+        "permanentlyClosed": false,
+        "temporarilyClosed": false,
+        "placeId": "ChIJBetKGpzzDDkRWECRTAgXT7w",
+        "categories": [
+            "South Indian restaurant"
+        ],
+        "fid": "0x390cf39c1a4aeb05:0xbc4f17084c914058",
+        "cid": "13569089526702358616",
+        "reviewsCount": 1063,
+        "imagesCount": 225,
+        "imageCategories": [],
+        "scrapedAt": "2025-04-28T15:17:35.894Z",
+        "googleFoodUrl": null,
+        "hotelAds": [],
+        "openingHours": [
+            {
+                "day": "Monday",
+                "hours": "7\u202fAM to 11\u202fPM"
+            },
+            {
+                "day": "Tuesday",
+                "hours": "7\u202fAM to 11\u202fPM"
+            },
+            {
+                "day": "Wednesday",
+                "hours": "7\u202fAM to 11\u202fPM"
+            },
+            {
+                "day": "Thursday",
+                "hours": "7\u202fAM to 11\u202fPM"
+            },
+            {
+                "day": "Friday",
+                "hours": "7\u202fAM to 11\u202fPM"
+            },
+            {
+                "day": "Saturday",
+                "hours": "7\u202fAM to 11\u202fPM"
+            },
+            {
+                "day": "Sunday",
+                "hours": "7\u202fAM to 11\u202fPM"
+            }
+        ],
+        "peopleAlsoSearch": [],
+        "placesTags": [],
+        "reviewsTags": [],
+        "additionalInfo": {
+            "Service options": [
+                {
+                    "Kerbside pickup": true
+                },
+                {
+                    "Takeaway": true
+                },
+                {
+                    "Dine-in": true
+                }
+            ],
+            "Highlights": [
+                {
+                    "Great coffee": true
+                },
+                {
+                    "Great dessert": true
+                },
+                {
+                    "Great tea selection": true
+                }
+            ],
+            "Popular for": [
+                {
+                    "Breakfast": true
+                },
+                {
+                    "Lunch": true
+                },
+                {
+                    "Dinner": true
+                },
+                {
+                    "Solo dining": true
+                }
+            ],
+            "Accessibility": [
+                {
+                    "Wheelchair-accessible seating": true
+                }
+            ],
+            "Offerings": [
+                {
+                    "All you can eat": true
+                },
+                {
+                    "Coffee": true
+                },
+                {
+                    "Quick bite": true
+                },
+                {
+                    "Small plates": true
+                },
+                {
+                    "Vegan options": true
+                },
+                {
+                    "Vegetarian options": true
+                },
+                {
+                    "Vegetarian options only": true
+                },
+                null
+            ],
+            "Dining options": [
+                {
+                    "Breakfast": true
+                },
+                {
+                    "Brunch": true
+                },
+                {
+                    "Lunch": true
+                },
+                {
+                    "Dinner": true
+                },
+                {
+                    "Dessert": true
+                }
+            ],
+            "Amenities": [
+                {
+                    "Toilet": true
+                }
+            ],
+            "Atmosphere": [
+                {
+                    "Casual": true
+                },
+                {
+                    "Cosy": true
+                },
+                {
+                    "Quiet": true
+                },
+                {
+                    "Trendy": true
+                },
+                {
+                    "Upmarket": true
+                }
+            ],
+            "Crowd": [
+                {
+                    "Groups": true
+                },
+                {
+                    "Tourists": true
+                }
+            ],
+            "Planning": [
+                {
+                    "Accepts reservations": true
+                }
+            ],
+            "Payments": [
+                {
+                    "Credit cards": true
+                },
+                {
+                    "Debit cards": true
+                },
+                {
+                    "NFC mobile payments": true
+                },
+                {
+                    "Credit cards": true
+                }
+            ],
+            "Children": [
+                {
+                    "Good for kids": true
+                },
+                {
+                    "Good for kids birthday": true
+                }
+            ],
+            "Parking": [
+                {
+                    "Free of charge street parking": true
+                },
+                {
+                    "Free parking lot": true
+                },
+                null
+            ]
+        },
+        "gasPrices": [],
+        "url": "https://www.google.com/maps/search/?api=1&query=Udupi%20Krishna%20Restaurant&query_place_id=ChIJBetKGpzzDDkRWECRTAgXT7w",
+        "searchPageUrl": "https://www.google.com/maps/search/restaurant/@28.714860628189648,77.55719593517983,15z?hl=en",
+        "searchString": "restaurant",
+        "language": "en",
+        "rank": 1,
+        "isAdvertisement": false,
+        "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AB5caB9yp94KmmuucleenUsvV4GssSpHyb1vLXom_YHnVYy-n00_S1mQvIZ-BVUpNVx4d1zIhIeuDNSfagb3sajylfVC6GSEHADzml_GEE5WFkwn8E1Fa98T35gA8oX1KHdZiXlhscYv=w408-h306-k-no",
+        "kgmid": "/g/11scp6jw0_"
+    },
+    {
+        "title": "Nahal Jhaal Dhaba",
+        "subTitle": "\u0928\u0939\u0932 \u091d\u093e\u0932 \u0922\u093e\u092c\u093e",
+        "price": null,
+        "categoryName": "Indian restaurant",
+        "address": "PH42+R5Q, Unnamed Road, Uttar Pradesh 201015, India",
+        "neighborhood": null,
+        "street": "PH42+R5Q, Unnamed Road",
+        "city": null,
+        "postalCode": "201015",
+        "state": "Uttar Pradesh",
+        "countryCode": "IN",
+        "claimThisBusiness": true,
+        "location": {
+            "lat": 28.7070937,
+            "lng": 77.5504792
+        },
+        "totalScore": 3.9,
+        "permanentlyClosed": false,
+        "temporarilyClosed": false,
+        "placeId": "ChIJJzxe-XXzDDkRqVrHq2uHLF0",
+        "categories": [
+            "Indian restaurant"
+        ],
+        "fid": "0x390cf375f95e3c27:0x5d2c876babc75aa9",
+        "cid": "6713890041015786153",
+        "reviewsCount": 77,
+        "imagesCount": 60,
+        "imageCategories": [],
+        "scrapedAt": "2025-04-28T15:17:35.895Z",
+        "googleFoodUrl": null,
+        "hotelAds": [],
+        "openingHours": [
+            {
+                "day": "Monday",
+                "hours": "Open 24 hours"
+            },
+            {
+                "day": "Tuesday",
+                "hours": "Open 24 hours"
+            },
+            {
+                "day": "Wednesday",
+                "hours": "Open 24 hours"
+            },
+            {
+                "day": "Thursday",
+                "hours": "Open 24 hours"
+            },
+            {
+                "day": "Friday",
+                "hours": "Open 24 hours"
+            },
+            {
+                "day": "Saturday",
+                "hours": "Open 24 hours"
+            },
+            {
+                "day": "Sunday",
+                "hours": "Open 24 hours"
+            }
+        ],
+        "peopleAlsoSearch": [],
+        "placesTags": [],
+        "reviewsTags": [],
+        "additionalInfo": {
+            "Service options": [
+                {
+                    "Outdoor seating": true
+                },
+                {
+                    "Drive-through": true
+                },
+                {
+                    "Takeaway": true
+                },
+                {
+                    "Dine-in": true
+                }
+            ],
+            "Popular for": [
+                {
+                    "Solo dining": true
+                }
+            ],
+            "Offerings": [
+                {
+                    "Quick bite": true
+                },
+                {
+                    "Small plates": true
+                }
+            ],
+            "Dining options": [
+                {
+                    "Breakfast": true
+                },
+                {
+                    "Lunch": true
+                },
+                {
+                    "Dinner": true
+                },
+                {
+                    "Seating": true
+                }
+            ],
+            "Atmosphere": [
+                {
+                    "Casual": true
+                },
+                {
+                    "Quiet": true
+                }
+            ],
+            "Crowd": [
+                {
+                    "Groups": true
+                }
+            ],
+            "Planning": [
+                {
+                    "Accepts reservations": false
+                }
+            ],
+            "Parking": [
+                {
+                    "Free of charge street parking": true
+                }
+            ]
+        },
+        "gasPrices": [],
+        "url": "https://www.google.com/maps/search/?api=1&query=Nahal%20Jhaal%20Dhaba&query_place_id=ChIJJzxe-XXzDDkRqVrHq2uHLF0",
+        "searchPageUrl": "https://www.google.com/maps/search/restaurant/@28.714860628189648,77.55719593517983,15z?hl=en",
+        "searchString": "restaurant",
+        "language": "en",
+        "rank": 2,
+        "isAdvertisement": false,
+        "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AB5caB9y7edlMl62o_0zBzRSw2PeY-4SGoHCMXOByH-k8bijxXH2w_-hcDpx4q-Nj5x5Rb-wwArzaH4RVUvXVHkbqvwMSG8DKc5a8ElINZekkLSSH8Te1ifog1hntH4BbmQkfCyZiKlG=w408-h306-k-no",
+        "kgmid": "/g/11gr2v0by4"
+    },
+    {
+        "title": "Hawa Hawai Aeroplane Restaurant",
+        "subTitle": "\u0939\u0935\u093e \u0939\u0935\u093e\u0908 \u090f\u0930\u094b\u092a\u094d\u0932\u0947\u0928 \u0930\u0947\u0938\u094d\u091f\u094b\u0930\u0947\u0902\u091f",
+        "price": "$$",
+        "categoryName": "Restaurant",
+        "address": "PHM5+CP, Didwari, Uttar Pradesh 201206, India",
+        "neighborhood": null,
+        "street": "PHM5+CP",
+        "city": "Didwari",
+        "postalCode": "201206",
+        "state": "Uttar Pradesh",
+        "countryCode": "IN",
+        "website": "https://hawahawai.info/",
+        "phone": "+91 98118 83882",
+        "phoneUnformatted": "+919811883882",
+        "claimThisBusiness": false,
+        "location": {
+            "lat": 28.7336063,
+            "lng": 77.5592645
+        },
+        "totalScore": 4,
+        "permanentlyClosed": false,
+        "temporarilyClosed": false,
+        "placeId": "ChIJpfYqN3LzDDkRyyNTMODfL7Q",
+        "categories": [
+            "Restaurant",
+            "Indian restaurant"
+        ],
+        "fid": "0x390cf372372af6a5:0xb42fdfe0305323cb",
+        "cid": "12983842404708852683",
+        "reviewsCount": 5891,
+        "imagesCount": 3989,
+        "imageCategories": [],
+        "scrapedAt": "2025-04-28T15:17:35.896Z",
+        "googleFoodUrl": null,
+        "hotelAds": [],
+        "openingHours": [
+            {
+                "day": "Monday",
+                "hours": "12 to 11:30\u202fPM"
+            },
+            {
+                "day": "Tuesday",
+                "hours": "12 to 11:30\u202fPM"
+            },
+            {
+                "day": "Wednesday",
+                "hours": "12 to 11:30\u202fPM"
+            },
+            {
+                "day": "Thursday",
+                "hours": "12 to 11:30\u202fPM"
+            },
+            {
+                "day": "Friday",
+                "hours": "12 to 11:30\u202fPM"
+            },
+            {
+                "day": "Saturday",
+                "hours": "12 to 11:30\u202fPM"
+            },
+            {
+                "day": "Sunday",
+                "hours": "12 to 11:30\u202fPM"
+            }
+        ],
+        "additionalOpeningHours": {
+            "Lunch": [
+                {
+                    "day": "Monday",
+                    "hours": "12\u201311:30\u202fpm"
+                },
+                {
+                    "day": "Tuesday",
+                    "hours": "12\u201311:30\u202fpm"
+                },
+                {
+                    "day": "Wednesday",
+                    "hours": "12\u201311:30\u202fpm"
+                },
+                {
+                    "day": "Thursday",
+                    "hours": "12\u201311:30\u202fpm"
+                },
+                {
+                    "day": "Friday",
+                    "hours": "12\u201311:30\u202fpm"
+                },
+                {
+                    "day": "Saturday",
+                    "hours": "12\u201311:30\u202fpm"
+                },
+                {
+                    "day": "Sunday",
+                    "hours": "12\u201311:30\u202fpm"
+                }
+            ]
+        },
+        "peopleAlsoSearch": [],
+        "placesTags": [],
+        "reviewsTags": [],
+        "additionalInfo": {
+            "Service options": [
+                {
+                    "Outdoor seating": true
+                },
+                {
+                    "No-contact delivery": true
+                },
+                {
+                    "Delivery": true
+                },
+                {
+                    "Drive-through": true
+                },
+                {
+                    "On-site services": true
+                },
+                {
+                    "Takeaway": true
+                },
+                {
+                    "Dine-in": true
+                }
+            ],
+            "Highlights": [
+                {
+                    "Great coffee": true
+                },
+                {
+                    "Great dessert": true
+                },
+                {
+                    "Great tea selection": true
+                }
+            ],
+            "Popular for": [
+                {
+                    "Breakfast": true
+                },
+                {
+                    "Lunch": true
+                },
+                {
+                    "Dinner": true
+                },
+                {
+                    "Solo dining": true
+                }
+            ],
+            "Accessibility": [
+                {
+                    "Wheelchair-accessible car park": true
+                },
+                {
+                    "Wheelchair-accessible entrance": true
+                },
+                {
+                    "Wheelchair-accessible seating": true
+                },
+                {
+                    "Wheelchair-accessible toilet": true
+                }
+            ],
+            "Offerings": [
+                {
+                    "All you can eat": true
+                },
+                {
+                    "Coffee": true
+                },
+                {
+                    "Late-night food": true
+                },
+                {
+                    "Quick bite": true
+                },
+                {
+                    "Small plates": true
+                },
+                {
+                    "Vegan options": true
+                },
+                {
+                    "Vegetarian options": true
+                },
+                {
+                    "Vegetarian options only": true
+                }
+            ],
+            "Dining options": [
+                {
+                    "Breakfast": true
+                },
+                {
+                    "Brunch": true
+                },
+                {
+                    "Lunch": true
+                },
+                {
+                    "Dinner": true
+                },
+                {
+                    "Catering": true
+                },
+                {
+                    "Dessert": true
+                },
+                {
+                    "Seating": true
+                }
+            ],
+            "Amenities": [
+                {
+                    "Toilet": true
+                }
+            ],
+            "Atmosphere": [
+                {
+                    "Casual": true
+                },
+                {
+                    "Cosy": true
+                },
+                {
+                    "Quiet": true
+                },
+                {
+                    "Romantic": true
+                },
+                {
+                    "Trendy": true
+                },
+                {
+                    "Upmarket": true
+                }
+            ],
+            "Crowd": [
+                {
+                    "Family friendly": true
+                },
+                {
+                    "Groups": true
+                },
+                {
+                    "LGBTQ+ friendly": true
+                },
+                {
+                    "Tourists": true
+                },
+                {
+                    "University students": true
+                }
+            ],
+            "Planning": [
+                {
+                    "Accepts reservations": true
+                },
+                {
+                    "Usually a wait": true
+                }
+            ],
+            "Payments": [
+                {
+                    "Credit cards": true
+                },
+                {
+                    "NFC mobile payments": true
+                }
+            ],
+            "Children": [
+                {
+                    "Good for kids": true
+                },
+                {
+                    "Good for kids birthday": true
+                },
+                {
+                    "High chairs": true
+                },
+                {
+                    "Kids' menu": true
+                }
+            ],
+            "Parking": [
+                {
+                    "Free of charge street parking": true
+                },
+                {
+                    "Free parking lot": true
+                },
+                null
+            ]
+        },
+        "gasPrices": [],
+        "url": "https://www.google.com/maps/search/?api=1&query=Hawa%20Hawai%20Aeroplane%20Restaurant&query_place_id=ChIJpfYqN3LzDDkRyyNTMODfL7Q",
+        "searchPageUrl": "https://www.google.com/maps/search/restaurant/@28.714860628189648,77.55719593517983,15z?hl=en",
+        "searchString": "restaurant",
+        "language": "en",
+        "rank": 3,
+        "isAdvertisement": false,
+        "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AB5caB-pEncgrGfMNn25zIkFa7d_TtNX0B_GC2hVdyguyzJIdcBsOrQQKuI56mxPKJMKcy8LljQucNWZTIHj2m-xQH_EELM9NkVGeUkel-0bB-8-CMf_TZk2UYQmDa94VPt_ZukDdEo=w426-h240-k-no",
+        "kgmid": "/g/11qb3p53nb"
+    },
+    {
+        "title": "Haldiram's - Delhi Meerut Express",
+        "subTitle": "\u0939\u0932\u094d\u0926\u093f\u0930\u093e\u092e\u094d\u0938 - \u0926\u093f\u0932\u094d\u0932\u0940 \u092e\u0947\u0930\u0920 \u090f\u0915\u094d\u0938\u092a\u094d\u0930\u0947\u0938",
+        "price": "\u20b9200\u2013400",
+        "categoryName": "Restaurant",
+        "address": "Isthara Foodcourt Delhi Meerut Expressway, Commercial Complex, Delhi - Meerut Expy, Express, Didwari, Uttar Pradesh 250001, India",
+        "neighborhood": "Express",
+        "street": "Isthara Foodcourt Delhi Meerut Expressway, Commercial Complex, Delhi - Meerut Expy",
+        "city": "Didwari",
+        "postalCode": "250001",
+        "state": "Uttar Pradesh",
+        "countryCode": "IN",
+        "website": "https://www.haldiram.com/?utm_store=locator&utm_medium=googleplaces",
+        "phone": "+91 8071 890 286",
+        "phoneUnformatted": "+918071890286",
+        "claimThisBusiness": false,
+        "location": {
+            "lat": 28.7349641,
+            "lng": 77.5580722
+        },
+        "totalScore": 4.3,
+        "permanentlyClosed": false,
+        "temporarilyClosed": false,
+        "placeId": "ChIJYx6TAY3zDDkRy_G1kqRGfio",
+        "categories": [
+            "Restaurant"
+        ],
+        "fid": "0x390cf38d01931e63:0x2a7e46a492b5f1cb",
+        "cid": "3061962469308494283",
+        "reviewsCount": 1604,
+        "imagesCount": 729,
+        "imageCategories": [],
+        "scrapedAt": "2025-04-28T15:17:35.897Z",
+        "googleFoodUrl": null,
+        "hotelAds": [],
+        "openingHours": [
+            {
+                "day": "Monday",
+                "hours": "8\u202fAM to 11\u202fPM"
+            },
+            {
+                "day": "Tuesday",
+                "hours": "8\u202fAM to 11\u202fPM"
+            },
+            {
+                "day": "Wednesday",
+                "hours": "8\u202fAM to 11\u202fPM"
+            },
+            {
+                "day": "Thursday",
+                "hours": "8\u202fAM to 11\u202fPM"
+            },
+            {
+                "day": "Friday",
+                "hours": "8\u202fAM to 11\u202fPM"
+            },
+            {
+                "day": "Saturday",
+                "hours": "8\u202fAM to 11\u202fPM"
+            },
+            {
+                "day": "Sunday",
+                "hours": "8\u202fAM to 11\u202fPM"
+            }
+        ],
+        "peopleAlsoSearch": [],
+        "placesTags": [],
+        "reviewsTags": [],
+        "additionalInfo": {
+            "Service options": [
+                {
+                    "No-contact delivery": true
+                },
+                {
+                    "Delivery": true
+                },
+                {
+                    "Drive-through": true
+                },
+                {
+                    "On-site services": true
+                },
+                {
+                    "Takeaway": true
+                },
+                {
+                    "Dine-in": true
+                }
+            ],
+            "Highlights": [
+                {
+                    "Great coffee": true
+                },
+                {
+                    "Great dessert": true
+                },
+                {
+                    "Great tea selection": true
+                }
+            ],
+            "Popular for": [
+                {
+                    "Breakfast": true
+                },
+                {
+                    "Lunch": true
+                },
+                {
+                    "Dinner": true
+                },
+                {
+                    "Solo dining": true
+                }
+            ],
+            "Accessibility": [
+                {
+                    "Wheelchair-accessible car park": true
+                },
+                {
+                    "Wheelchair-accessible entrance": true
+                },
+                {
+                    "Wheelchair-accessible seating": true
+                },
+                {
+                    "Wheelchair-accessible toilet": true
+                }
+            ],
+            "Offerings": [
+                {
+                    "All you can eat": true
+                },
+                {
+                    "Coffee": true
+                },
+                {
+                    "Late-night food": true
+                },
+                {
+                    "Quick bite": true
+                },
+                {
+                    "Small plates": true
+                },
+                {
+                    "Vegan options": true
+                },
+                {
+                    "Vegetarian options": true
+                },
+                {
+                    "Vegetarian options only": true
+                }
+            ],
+            "Dining options": [
+                {
+                    "Breakfast": true
+                },
+                {
+                    "Brunch": true
+                },
+                {
+                    "Lunch": true
+                },
+                {
+                    "Dinner": true
+                },
+                {
+                    "Dessert": true
+                }
+            ],
+            "Amenities": [
+                {
+                    "Toilet": true
+                }
+            ],
+            "Atmosphere": [
+                {
+                    "Casual": true
+                },
+                {
+                    "Cosy": true
+                },
+                {
+                    "Quiet": true
+                },
+                {
+                    "Trendy": true
+                },
+                {
+                    "Upmarket": true
+                }
+            ],
+            "Crowd": [
+                {
+                    "Groups": true
+                },
+                {
+                    "Tourists": true
+                }
+            ],
+            "Planning": [
+                {
+                    "Accepts reservations": true
+                }
+            ],
+            "Payments": [
+                {
+                    "Credit cards": true
+                },
+                {
+                    "Debit cards": true
+                },
+                {
+                    "NFC mobile payments": true
+                },
+                {
+                    "Credit cards": true
+                }
+            ],
+            "Children": [
+                {
+                    "Good for kids": true
+                },
+                {
+                    "Good for kids birthday": true
+                },
+                {
+                    "Kids' menu": true
+                }
+            ],
+            "Parking": [
+                {
+                    "Free of charge street parking": true
+                },
+                {
+                    "Free parking lot": true
+                },
+                null
+            ]
+        },
+        "gasPrices": [],
+        "url": "https://www.google.com/maps/search/?api=1&query=Haldiram's%20-%20Delhi%20Meerut%20Express&query_place_id=ChIJYx6TAY3zDDkRy_G1kqRGfio",
+        "searchPageUrl": "https://www.google.com/maps/search/restaurant/@28.714860628189648,77.55719593517983,15z?hl=en",
+        "searchString": "restaurant",
+        "language": "en",
+        "rank": 4,
+        "isAdvertisement": false,
+        "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AB5caB994UAIhbv0FwWkC-T5g6xw5RvzJTLLQE1gcYBt8Qu3yHwuEEzHIZNaeZx0GR-XmoCzYYwPSe6NB1sgMopY-CroxbWEr8p42YG-t37qWphqEzPwpRG8MZIZ1FNEANYrXZao1W_c=w408-h306-k-no",
+        "kgmid": "/g/11t_nng2yn"
+    },
+    {
+        "title": "Abdullah kirana store",
+        "subTitle": "\u0905\u092c\u094d\u0926\u0941\u0932\u094d\u0932\u093e \u0915\u093f\u0930\u093e\u0928\u093e \u0938\u094d\u091f\u094b\u0930",
+        "price": null,
+        "categoryName": "American restaurant",
+        "address": "PH83+HQ3, Nahal, Uttar Pradesh 201015, India",
+        "neighborhood": null,
+        "street": "PH83+HQ3",
+        "city": "Nahal",
+        "postalCode": "201015",
+        "state": "Uttar Pradesh",
+        "countryCode": "IN",
+        "claimThisBusiness": true,
+        "location": {
+            "lat": 28.7162233,
+            "lng": 77.5544433
+        },
+        "totalScore": 5,
+        "permanentlyClosed": false,
+        "temporarilyClosed": false,
+        "placeId": "ChIJ61YVWADzDDkRHo8ci9q8Qrs",
+        "categories": [
+            "American restaurant"
+        ],
+        "fid": "0x390cf300581556eb:0xbb42bcda8b1c8f1e",
+        "cid": "13493555080378224414",
+        "reviewsCount": 1,
+        "imagesCount": 1,
+        "imageCategories": [],
+        "scrapedAt": "2025-04-28T15:17:35.897Z",
+        "googleFoodUrl": null,
+        "hotelAds": [],
+        "openingHours": [],
+        "peopleAlsoSearch": [],
+        "placesTags": [],
+        "reviewsTags": [],
+        "additionalInfo": {
+            "Service options": [
+                {
+                    "Dine-in": true
+                }
+            ],
+            "Offerings": [
+                {
+                    "Food": true
+                },
+                {
+                    "Quick bite": true
+                },
+                {
+                    "Small plates": true
+                },
+                null
+            ],
+            "Atmosphere": [
+                {
+                    "Casual": true
+                }
+            ],
+            "Crowd": [
+                {
+                    "Groups": true
+                }
+            ],
+            "Children": [
+                {
+                    "Good for kids": true
+                }
+            ]
+        },
+        "gasPrices": [],
+        "url": "https://www.google.com/maps/search/?api=1&query=Abdullah%20kirana%20store&query_place_id=ChIJ61YVWADzDDkRHo8ci9q8Qrs",
+        "searchPageUrl": "https://www.google.com/maps/search/restaurant/@28.714860628189648,77.55719593517983,15z?hl=en",
+        "searchString": "restaurant",
+        "language": "en",
+        "rank": 5,
+        "isAdvertisement": false,
+        "imageUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=zmGQh7ZYIMH0HxeDfOS6UQ&cb_client=search.gws-prod.gps&w=408&h=240&yaw=126.54401&pitch=0&thumbfov=100",
+        "kgmid": "/g/11w4dfgxbx"
+    }
+]

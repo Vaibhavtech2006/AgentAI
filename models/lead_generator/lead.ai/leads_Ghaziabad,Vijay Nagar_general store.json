@@ -1,0 +1,530 @@
+[
+    {
+        "title": "Shubham General Store",
+        "subTitle": "\u0936\u0941\u092d\u092e \u091c\u0928\u0930\u0932 \u0938\u094d\u091f\u094b\u0930",
+        "price": null,
+        "categoryName": "General store",
+        "address": "MC37+4CJ, D Block, Sector-11, Pratap Vihar, Ghaziabad, Uttar Pradesh 201009, India",
+        "neighborhood": "D Block, Sector-11, Pratap Vihar",
+        "street": "MC37+4CJ",
+        "city": "Ghaziabad",
+        "postalCode": "201009",
+        "state": "Uttar Pradesh",
+        "countryCode": "IN",
+        "claimThisBusiness": true,
+        "location": {
+            "lat": 28.6528406,
+            "lng": 77.4135183
+        },
+        "totalScore": 4.5,
+        "permanentlyClosed": false,
+        "temporarilyClosed": false,
+        "placeId": "ChIJeSo65S_wDDkR45VN4yFZsrk",
+        "categories": [
+            "General store"
+        ],
+        "fid": "0x390cf02fe53a2a79:0xb9b25921e34d95e3",
+        "cid": "13380855444953470435",
+        "reviewsCount": 25,
+        "imagesCount": 1,
+        "imageCategories": [],
+        "scrapedAt": "2025-04-28T17:18:22.221Z",
+        "googleFoodUrl": null,
+        "hotelAds": [],
+        "openingHours": [
+            {
+                "day": "Monday",
+                "hours": "7\u202fAM to 10\u202fPM"
+            },
+            {
+                "day": "Tuesday",
+                "hours": "7\u202fAM to 10\u202fPM"
+            },
+            {
+                "day": "Wednesday",
+                "hours": "7\u202fAM to 10\u202fPM"
+            },
+            {
+                "day": "Thursday",
+                "hours": "7\u202fAM to 10\u202fPM"
+            },
+            {
+                "day": "Friday",
+                "hours": "7\u202fAM to 10\u202fPM"
+            },
+            {
+                "day": "Saturday",
+                "hours": "7\u202fAM to 10\u202fPM"
+            },
+            {
+                "day": "Sunday",
+                "hours": "7\u202fAM to 10\u202fPM"
+            }
+        ],
+        "peopleAlsoSearch": [],
+        "placesTags": [],
+        "reviewsTags": [],
+        "additionalInfo": {
+            "Planning": [
+                {
+                    "Quick visit": true
+                }
+            ]
+        },
+        "gasPrices": [],
+        "url": "https://www.google.com/maps/search/?api=1&query=Shubham%20General%20Store&query_place_id=ChIJeSo65S_wDDkR45VN4yFZsrk",
+        "searchPageUrl": "https://www.google.com/maps/search/general%20store/@28.655704623783123,77.41475799271777,16z?hl=en",
+        "searchString": "general store",
+        "language": "en",
+        "rank": 1,
+        "isAdvertisement": false,
+        "imageUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=36k2rmgFbjpa3Z1PhGL6Og&cb_client=search.gws-prod.gps&w=408&h=240&yaw=189.72467&pitch=0&thumbfov=100",
+        "kgmid": "/g/1q62mctcr"
+    },
+    {
+        "title": "Garhwal General Store",
+        "subTitle": "\u0917\u0922\u093c\u0935\u093e\u0932 \u091c\u0928\u0930\u0932 \u0938\u094d\u091f\u094b\u0930",
+        "price": null,
+        "categoryName": "General store",
+        "address": "MC36+7GP, F Block, Sector-11, Pratap Vihar, Ghaziabad, Uttar Pradesh 201009, India",
+        "neighborhood": "F Block, Sector-11, Pratap Vihar",
+        "street": "MC36+7GP",
+        "city": "Ghaziabad",
+        "postalCode": "201009",
+        "state": "Uttar Pradesh",
+        "countryCode": "IN",
+        "phone": "+91 95402 93198",
+        "phoneUnformatted": "+919540293198",
+        "claimThisBusiness": true,
+        "location": {
+            "lat": 28.6532004,
+            "lng": 77.4113414
+        },
+        "totalScore": 3,
+        "permanentlyClosed": false,
+        "temporarilyClosed": false,
+        "placeId": "ChIJ5RFMNSXwDDkRnJSza9NvM6o",
+        "categories": [
+            "General store",
+            "Grocery store"
+        ],
+        "fid": "0x390cf025354c11e5:0xaa336fd36bb3949c",
+        "cid": "12264269164095706268",
+        "reviewsCount": 2,
+        "imagesCount": 1,
+        "imageCategories": [],
+        "scrapedAt": "2025-04-28T17:18:22.223Z",
+        "googleFoodUrl": null,
+        "hotelAds": [],
+        "openingHours": [
+            {
+                "day": "Monday",
+                "hours": "6:30\u202fAM to 11\u202fPM"
+            },
+            {
+                "day": "Tuesday",
+                "hours": "6:30\u202fAM to 11\u202fPM"
+            },
+            {
+                "day": "Wednesday",
+                "hours": "6:30\u202fAM to 11\u202fPM"
+            },
+            {
+                "day": "Thursday",
+                "hours": "6:30\u202fAM to 11\u202fPM"
+            },
+            {
+                "day": "Friday",
+                "hours": "6:30\u202fAM to 11\u202fPM"
+            },
+            {
+                "day": "Saturday",
+                "hours": "6:30\u202fAM to 11\u202fPM"
+            },
+            {
+                "day": "Sunday",
+                "hours": "6:30\u202fAM to 11\u202fPM"
+            }
+        ],
+        "peopleAlsoSearch": [],
+        "placesTags": [],
+        "reviewsTags": [],
+        "additionalInfo": {
+            "Service options": [
+                {
+                    "Delivery": true
+                },
+                {
+                    "Same-day delivery": true
+                }
+            ],
+            "Planning": [
+                {
+                    "Quick visit": true
+                }
+            ]
+        },
+        "gasPrices": [],
+        "url": "https://www.google.com/maps/search/?api=1&query=Garhwal%20General%20Store&query_place_id=ChIJ5RFMNSXwDDkRnJSza9NvM6o",
+        "searchPageUrl": "https://www.google.com/maps/search/general%20store/@28.655704623783123,77.41475799271777,16z?hl=en",
+        "searchString": "general store",
+        "language": "en",
+        "rank": 2,
+        "isAdvertisement": false,
+        "imageUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=mVKSipdBz-xawPxd-DRerA&cb_client=search.gws-prod.gps&w=408&h=240&yaw=317.6132&pitch=0&thumbfov=100",
+        "kgmid": "/g/1pp2vln66"
+    },
+    {
+        "title": "Shivani General Store",
+        "subTitle": "\u0936\u093f\u0935\u093e\u0928\u0940 \u091c\u0947\u0928\u0930\u0932 \u0938\u094d\u091f\u094b\u0930",
+        "price": null,
+        "categoryName": "General store",
+        "address": "29, Sector-11, Pratap Vihar, Ghaziabad, Uttar Pradesh 201009, India",
+        "neighborhood": "Sector-11, Pratap Vihar",
+        "street": "29",
+        "city": "Ghaziabad",
+        "postalCode": "201009",
+        "state": "Uttar Pradesh",
+        "countryCode": "IN",
+        "phone": "+91 94585 79756",
+        "phoneUnformatted": "+919458579756",
+        "claimThisBusiness": false,
+        "location": {
+            "lat": 28.6549984,
+            "lng": 77.4117624
+        },
+        "totalScore": 5,
+        "permanentlyClosed": false,
+        "temporarilyClosed": false,
+        "placeId": "ChIJcbT2scPxDDkRg9O3AD6Hy2s",
+        "categories": [
+            "General store"
+        ],
+        "fid": "0x390cf1c3b1f6b471:0x6bcb873e00b7d383",
+        "cid": "7767450682700321667",
+        "reviewsCount": 1,
+        "imagesCount": 21,
+        "imageCategories": [],
+        "scrapedAt": "2025-04-28T17:18:22.223Z",
+        "googleFoodUrl": null,
+        "hotelAds": [],
+        "openingHours": [
+            {
+                "day": "Monday",
+                "hours": "8\u202fAM to 11\u202fPM"
+            },
+            {
+                "day": "Tuesday",
+                "hours": "8\u202fAM to 11\u202fPM"
+            },
+            {
+                "day": "Wednesday",
+                "hours": "8\u202fAM to 11\u202fPM"
+            },
+            {
+                "day": "Thursday",
+                "hours": "8\u202fAM to 11\u202fPM"
+            },
+            {
+                "day": "Friday",
+                "hours": "8\u202fAM to 11\u202fPM"
+            },
+            {
+                "day": "Saturday",
+                "hours": "8\u202fAM to 11\u202fPM"
+            },
+            {
+                "day": "Sunday",
+                "hours": "8\u202fAM to 11\u202fPM"
+            }
+        ],
+        "additionalOpeningHours": {
+            "Delivery": [
+                {
+                    "day": "Monday",
+                    "hours": "9\u202fAM\u20135\u202fPM"
+                },
+                {
+                    "day": "Tuesday",
+                    "hours": "9\u202fAM\u20135\u202fPM"
+                },
+                {
+                    "day": "Wednesday",
+                    "hours": "9\u202fAM\u20135\u202fPM"
+                },
+                {
+                    "day": "Thursday",
+                    "hours": "9\u202fAM\u20135\u202fPM"
+                },
+                {
+                    "day": "Friday",
+                    "hours": "9\u202fAM\u20135\u202fPM"
+                },
+                {
+                    "day": "Saturday",
+                    "hours": "9\u202fAM\u20135\u202fPM"
+                },
+                {
+                    "day": "Sunday",
+                    "hours": "9\u202fAM\u20135\u202fPM"
+                }
+            ]
+        },
+        "peopleAlsoSearch": [],
+        "placesTags": [],
+        "reviewsTags": [],
+        "additionalInfo": {
+            "Service options": [
+                {
+                    "Delivery": true
+                }
+            ],
+            "Planning": [
+                {
+                    "Quick visit": true
+                }
+            ]
+        },
+        "gasPrices": [],
+        "url": "https://www.google.com/maps/search/?api=1&query=Shivani%20General%20Store&query_place_id=ChIJcbT2scPxDDkRg9O3AD6Hy2s",
+        "searchPageUrl": "https://www.google.com/maps/search/general%20store/@28.655704623783123,77.41475799271777,16z?hl=en",
+        "searchString": "general store",
+        "language": "en",
+        "rank": 3,
+        "isAdvertisement": false,
+        "imageUrl": "https://lh3.googleusercontent.com/p/AF1QipOYAGppGUzwjokHP79QPfG31CBDzCsuIvMUBVdq=w408-h408-k-no",
+        "kgmid": "/g/11t2t3s_cx"
+    },
+    {
+        "title": "Gupta General Store",
+        "price": null,
+        "categoryName": "General store",
+        "address": "E686, Sector-11, Pratap Vihar, Ghaziabad, Uttar Pradesh 201009, India",
+        "neighborhood": "Sector-11, Pratap Vihar",
+        "street": "E686",
+        "city": "Ghaziabad",
+        "postalCode": "201009",
+        "state": "Uttar Pradesh",
+        "countryCode": "IN",
+        "phone": "+91 82858 26148",
+        "phoneUnformatted": "+918285826148",
+        "claimThisBusiness": false,
+        "location": {
+            "lat": 28.6563556,
+            "lng": 77.4126428
+        },
+        "totalScore": 4.3,
+        "permanentlyClosed": false,
+        "temporarilyClosed": false,
+        "placeId": "ChIJsxLW7nTxDDkRr5VYQg2_KNU",
+        "categories": [
+            "General store"
+        ],
+        "fid": "0x390cf174eed612b3:0xd528bf0d425895af",
+        "cid": "15359736592815658415",
+        "reviewsCount": 3,
+        "imagesCount": 1,
+        "imageCategories": [],
+        "scrapedAt": "2025-04-28T17:18:22.223Z",
+        "googleFoodUrl": null,
+        "hotelAds": [],
+        "openingHours": [
+            {
+                "day": "Monday",
+                "hours": "8\u202fAM to 7:30\u202fPM"
+            },
+            {
+                "day": "Tuesday",
+                "hours": "8\u202fAM to 7:30\u202fPM"
+            },
+            {
+                "day": "Wednesday",
+                "hours": "8\u202fAM to 7:30\u202fPM"
+            },
+            {
+                "day": "Thursday",
+                "hours": "8\u202fAM to 7:30\u202fPM"
+            },
+            {
+                "day": "Friday",
+                "hours": "8\u202fAM to 7:30\u202fPM"
+            },
+            {
+                "day": "Saturday",
+                "hours": "8\u202fAM to 7:30\u202fPM"
+            },
+            {
+                "day": "Sunday",
+                "hours": "8\u202fAM to 7:30\u202fPM"
+            }
+        ],
+        "peopleAlsoSearch": [],
+        "placesTags": [],
+        "reviewsTags": [],
+        "additionalInfo": {
+            "Planning": [
+                {
+                    "Quick visit": true
+                }
+            ]
+        },
+        "gasPrices": [],
+        "url": "https://www.google.com/maps/search/?api=1&query=Gupta%20General%20Store&query_place_id=ChIJsxLW7nTxDDkRr5VYQg2_KNU",
+        "searchPageUrl": "https://www.google.com/maps/search/general%20store/@28.655704623783123,77.41475799271777,16z?hl=en",
+        "searchString": "general store",
+        "language": "en",
+        "rank": 4,
+        "isAdvertisement": false,
+        "imageUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=3T1XpSoBpDAx626yY2cqQQ&cb_client=search.gws-prod.gps&w=408&h=240&yaw=344.6074&pitch=0&thumbfov=100",
+        "kgmid": "/g/11km_7cl7k"
+    },
+    {
+        "title": "Pandey General Store",
+        "subTitle": "\u092a\u093e\u0902\u0921\u0947 \u091c\u0928\u0930\u0932 \u0938\u094d\u091f\u094b\u0930",
+        "price": null,
+        "categoryName": "Indian grocery store",
+        "address": "N-11,, 11, Sector 12, Teacher Colony, Ghaziabad, Uttar Pradesh 201009, India",
+        "neighborhood": "Sector 12, Teacher Colony, Pratap Vihar",
+        "street": "N-11,, 11",
+        "city": "Ghaziabad",
+        "postalCode": "201009",
+        "state": "Uttar Pradesh",
+        "countryCode": "IN",
+        "phone": "+91 20 3040 6080",
+        "phoneUnformatted": "+912030406080",
+        "claimThisBusiness": false,
+        "location": {
+            "lat": 28.6470146,
+            "lng": 77.4164117
+        },
+        "totalScore": 4.1,
+        "permanentlyClosed": false,
+        "temporarilyClosed": false,
+        "placeId": "ChIJDckCIynwDDkRK1q8633tXfQ",
+        "categories": [
+            "Indian grocery store"
+        ],
+        "fid": "0x390cf0292302c90d:0xf45ded7debbc5a2b",
+        "cid": "17608491243170191915",
+        "reviewsCount": 377,
+        "imagesCount": 112,
+        "imageCategories": [],
+        "scrapedAt": "2025-04-28T17:18:22.223Z",
+        "googleFoodUrl": null,
+        "hotelAds": [],
+        "openingHours": [
+            {
+                "day": "Monday",
+                "hours": "9\u202fAM to 9\u202fPM"
+            },
+            {
+                "day": "Tuesday",
+                "hours": "9\u202fAM to 9\u202fPM"
+            },
+            {
+                "day": "Wednesday",
+                "hours": "9\u202fAM to 9\u202fPM"
+            },
+            {
+                "day": "Thursday",
+                "hours": "9\u202fAM to 9\u202fPM"
+            },
+            {
+                "day": "Friday",
+                "hours": "9\u202fAM to 9\u202fPM"
+            },
+            {
+                "day": "Saturday",
+                "hours": "9\u202fAM to 9\u202fPM"
+            },
+            {
+                "day": "Sunday",
+                "hours": "9\u202fAM to 9\u202fPM"
+            }
+        ],
+        "additionalOpeningHours": {
+            "Delivery": [
+                {
+                    "day": "Monday",
+                    "hours": "9\u202fAM\u20139:30\u202fPM"
+                },
+                {
+                    "day": "Tuesday",
+                    "hours": "9\u202fAM\u201312\u202fAM"
+                },
+                {
+                    "day": "Wednesday",
+                    "hours": "12\u202fAM\u20135\u202fPM"
+                },
+                {
+                    "day": "Thursday",
+                    "hours": "9\u202fAM\u20135\u202fPM"
+                },
+                {
+                    "day": "Friday",
+                    "hours": "9\u202fAM\u20135\u202fPM"
+                },
+                {
+                    "day": "Saturday",
+                    "hours": "9\u202fAM\u20135\u202fPM"
+                },
+                {
+                    "day": "Sunday",
+                    "hours": "9\u20139:30\u202fAM"
+                }
+            ]
+        },
+        "peopleAlsoSearch": [],
+        "placesTags": [],
+        "reviewsTags": [],
+        "additionalInfo": {
+            "Service options": [
+                {
+                    "No-contact delivery": true
+                },
+                {
+                    "Delivery": true
+                },
+                {
+                    "In-store pickup": true
+                },
+                {
+                    "Same-day delivery": true
+                }
+            ],
+            "Highlights": [
+                {
+                    "Great produce": true
+                }
+            ],
+            "Planning": [
+                {
+                    "Quick visit": true
+                }
+            ],
+            "Payments": [
+                {
+                    "Credit cards": true
+                },
+                {
+                    "Debit cards": true
+                },
+                {
+                    "NFC mobile payments": true
+                },
+                {
+                    "Credit cards": true
+                }
+            ]
+        },
+        "gasPrices": [],
+        "url": "https://www.google.com/maps/search/?api=1&query=Pandey%20General%20Store&query_place_id=ChIJDckCIynwDDkRK1q8633tXfQ",
+        "searchPageUrl": "https://www.google.com/maps/search/general%20store/@28.655704623783123,77.41475799271777,16z?hl=en",
+        "searchString": "general store",
+        "language": "en",
+        "rank": 5,
+        "isAdvertisement": false,
+        "imageUrl": "https://lh3.googleusercontent.com/p/AF1QipMK4b0_ZcHi-sORciMrA5p8dIP5I_G0aXowkAiV=w408-h306-k-no",
+        "kgmid": "/g/11bbrmxgg3"
+    }
+]

@@ -22,7 +22,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+<<<<<<< HEAD
   title: "AgentAI",
+=======
+  title: "Agent AI",
+>>>>>>> c33fbf8f879da7a871fb57bf49cd2a1de4439383
   description: "learning nextjs through project building",
 };
 
