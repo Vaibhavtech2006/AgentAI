@@ -1,29 +1,29 @@
 "use client";
-import React from "react";
-// ✅ import your Lamp section
+import React, { useEffect, useState } from "react";
 import { BentoGrid, BentoGridItem } from "./ui/BentoGrid";
 import { gridItems } from "@/data";
 import { ContainerScroll } from "../components/ui/container-scroll-animation";
 import { HoverEffect } from "./ui/card-hover-effect";
 import { CardDemo } from "./ui/Feature Block Animated Card";
+import Typewriter from "typewriter-effect";
 
 const hoverItems = [
   {
-    title: "Lead Generation Bot",
+    title: "Lead Generation AI Agent",
     description:
-      "Automate the discovery of high-quality leads using intelligent web scraping and GPT-powered outreach.",
+      "AI-driven lead generation agent automating prospect identification and engagement.",
     link: "/sales/lead-generation",
   },
   {
-    title: "AI Email Assistant",
+    title: "AI Cold Emailing Agent",
     description:
-      "Craft personalized sales emails at scale with AI that adapts to tone, industry, and buyer persona.",
+      "AI-powered cold emailing agent autonomously researches prospects, crafts personalized messages, and sends targeted outreach emails to maximize engagement.",
     link: "/sales/email-assistant",
   },
   {
-    title: "Smart CRM Integration",
+    title: "AI Voice Calling Agent",
     description:
-      "Seamlessly integrate AI into your CRM to prioritize deals, analyze patterns, and boost conversions.",
+      "AI-powered voice calling agent autonomously initiates calls and conducts natural conversations to resolve queries and qualify leads.",
     link: "/sales/crm-integration",
   },
   {
@@ -47,10 +47,48 @@ const hoverItems = [
 ];
 
 const HomePage = () => {
+  const [showTyping, setShowTyping] = useState(false);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setShowTyping(true);
+    }, 3000); // show typing after 3 seconds
+
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
     <main className="min-h-screen bg-slate-950 text-white">
-      {/* 🚀 Hero Section with Lamp Effect */}
-      
+      {/* 🚀 Hero Section with Image and Typing Effect */}
+      <section className="relative w-full h-screen flex flex-col items-center justify-center bg-black overflow-hidden">
+        {!showTyping ? (
+          <>
+            <img
+              src="/images/callcenter.jpg" // <-- Put your actual path here
+              alt="Call Center Girl"
+              className="w-full h-full object-cover opacity-80 transition-opacity duration-1000"
+            />
+            <div className="absolute bottom-10 text-white text-2xl font-semibold">
+              Replacing Conventional Call Centers...
+            </div>
+          </>
+        ) : (
+          <div className="text-center">
+            <h1 className="text-5xl font-bold text-indigo-500 mb-4">
+              <Typewriter
+                options={{
+                  strings: ["vikriti.ai"],
+                  autoStart: true,
+                  loop: true,
+                  delay: 75,
+                  deleteSpeed: 50,
+                }}
+              />
+            </h1>
+            <p className="text-xl text-gray-300">Your AI-Powered Call Center Solution</p>
+          </div>
+        )}
+      </section>
 
       {/* 🧩 Bento Grid Section */}
       <section id="about">
