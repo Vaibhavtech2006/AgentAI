@@ -162,7 +162,7 @@ const HomePage: React.FC = () => {
       <h1 className="text-7xl font-bold text-indigo-500 mb-4">
         <Typewriter
           options={{
-            strings: ['vikriti.ai'],
+            strings: ['Vikriti.Ai'],
             autoStart: true,
             loop: true,
             delay: 75,
@@ -196,13 +196,13 @@ const HomePage: React.FC = () => {
           id: 1,
           title: "Fast AI Calls",
           description: "AI-powered agents that respond in milliseconds.",
-          img: "/images/ai-call.png",
+          img: "/images/ai-call.jpg",
         },
         {
           id: 2,
           title: "Real Leads",
           description: "Track and convert real-time leads automatically.",
-          img: "/images/leads.png",
+          img: "/images/leads.jpg",
         },
         {
           id: 3,

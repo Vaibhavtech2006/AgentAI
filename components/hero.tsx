@@ -69,9 +69,10 @@ const Hero = () => {
               {/* Dropdown */}
               <div className="absolute right-0 mt-2 w-48 bg-white text-black rounded-md shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-50">
                 <Link href="/account" className="block px-4 py-2 hover:bg-purple-100">My Account</Link>
-                <Link href="/leads" className="block px-4 py-2 hover:bg-purple-100">Leads</Link>
-                <Link href="/calls" className="block px-4 py-2 hover:bg-purple-100">Calls</Link>
-                <Link href="/emails" className="block px-4 py-2 hover:bg-purple-100">Emails</Link>
+                <Link href="/agents/leads" className="block px-4 py-2 hover:bg-purple-100">Leads</Link>
+                <Link href="/agents/calls" className="block px-4 py-2 hover:bg-purple-100">Calls</Link>
+                <Link href="/agents/emails" className="block px-4 py-2 hover:bg-purple-100">Emails</Link>
+
               </div>
             </div>
           </div>
@@ -83,7 +84,7 @@ const Hero = () => {
             Say Goodbye to Call Centers
           </h2>
           <h1 className="text-5xl md:text-7xl font-bold">
-            Meet Your AI Sales Agent
+            Meet Your Outreach Ai Agent
           </h1>
           <h2 className="uppercase tracking-widest text-gray-400 mt-6">
             Revolutionize Communication
