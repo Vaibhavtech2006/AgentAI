@@ -16,13 +16,15 @@ const LeadChatbot: React.FC = () => {
   ]);
   const [userInput, setUserInput] = useState('');
   const [leads, setLeads] = useState<Lead[]>([]);
+  const [isLoading, setIsLoading] = useState(false);  // Loading state for fetching leads
 
   const handleSend = async () => {
-    if (!userInput.trim()) return;
+    if (!userInput.trim()) return;  // Avoid empty input
+
     const input = userInput.trim().toLowerCase();
     setChat(prev => [...prev, `You: ${userInput}`]);
 
-
+    // Step-based logic for user interactions
     if (step === 0) {
       if (input === 'yes') {
         setChat(prev => [...prev, "Bot: Great! Enter the place name (e.g., city or area):"]);
@@ -33,18 +35,17 @@ const LeadChatbot: React.FC = () => {
       } else {
         setChat(prev => [...prev, "Bot: Please type 'yes' or 'no'."]);
       }
-    }
-
-    else if (step === 1) {
+    } else if (step === 1) {
       setPlace(userInput);
       setChat(prev => [...prev, "Bot: Enter the business niche (e.g., restaurant, store):"]);
       setStep(2);
-    }
-
-    else if (step === 2) {
+    } else if (step === 2) {
       setNiche(userInput);
       setChat(prev => [...prev, "Bot: Generating leads, please wait..."]);
       setStep(3);
+
+      // Start loading indicator
+      setIsLoading(true);
 
       try {
         const response = await fetch("http://localhost:5000/generate", {
@@ -66,6 +67,9 @@ const LeadChatbot: React.FC = () => {
         }
       } catch (error) {
         setChat(prev => [...prev, "Bot: Error connecting to server."]);
+      } finally {
+        // Stop loading indicator
+        setIsLoading(false);
       }
     }
 
@@ -75,6 +79,7 @@ const LeadChatbot: React.FC = () => {
   return (
     <div style={{ padding: '1rem', backgroundColor: 'black', color: 'white', minHeight: '100vh' }}>
       <h2>Lead Generation Chatbot</h2>
+      
       <div style={{
         background: '#1a1a1a',
         padding: '1rem',
@@ -88,6 +93,7 @@ const LeadChatbot: React.FC = () => {
         ))}
       </div>
 
+      {/* User input section */}
       {step !== -1 && (
         <>
           <input
@@ -101,7 +107,8 @@ const LeadChatbot: React.FC = () => {
               marginRight: '0.5rem',
               backgroundColor: '#222',
               color: 'white',
-              border: '1px solid #555'
+              border: '1px solid #555',
+              width: '70%'
             }}
           />
           <button
@@ -111,7 +118,8 @@ const LeadChatbot: React.FC = () => {
               backgroundColor: '#0070f3',
               color: 'white',
               border: 'none',
-              cursor: 'pointer'
+              cursor: 'pointer',
+              width: '20%'
             }}
           >
             Send
@@ -119,6 +127,14 @@ const LeadChatbot: React.FC = () => {
         </>
       )}
 
+      {/* Show loading state */}
+      {isLoading && (
+        <div style={{ marginTop: '1rem', color: '#bbb' }}>
+          Bot: Generating leads... Please wait.
+        </div>
+      )}
+
+      {/* Display the leads table if available */}
       {leads.length > 0 && (
         <div style={{ marginTop: '2rem' }}>
           <h3>Lead Results</h3>

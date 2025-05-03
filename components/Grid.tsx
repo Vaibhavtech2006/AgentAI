@@ -1,3 +1,4 @@
+
 'use client';
 
 import React, { useEffect, useState } from 'react';
@@ -16,6 +17,17 @@ interface TeamMember {
   role: string;
   img: string;
 }
+=======
+"use client";
+import React, { useEffect, useState } from "react";
+import { BentoGrid, BentoGridItem } from "./ui/BentoGrid";
+import { gridItems } from "@/data";
+import { ContainerScroll } from "../components/ui/container-scroll-animation";
+import { HoverEffect } from "./ui/card-hover-effect";
+import { CardDemo } from "./ui/Feature Block Animated Card";
+import Typewriter from 'typewriter-effect';
+
+>>>>>>> Stashed changes
 
 const hoverItems = [
   {
