@@ -79,7 +79,7 @@ export default function AgentsPage() {
       {/* Spotlight Card */}
       <div className="z-10 relative mt-20">
         <CardSpotlight className="h-64 w-64 p-6 rounded-lg shadow-lg bg-gradient-to-r from-blue-500 via-purple-500 to-indigo-600">
-        <Link href="/agents/generate-lead">
+        <Link href="/agents/chatbot">
 
             <div className="group flex items-center justify-center gap-2 text-2xl font-extrabold text-white text-center mt-2 shadow-md p-2 rounded-md hover:bg-white hover:text-black transition duration-300 cursor-pointer">
               Generate Your Lead

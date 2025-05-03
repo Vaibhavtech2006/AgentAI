@@ -24,6 +24,13 @@ const LeadChatbot: React.FC = () => {
     const input = userInput.trim().toLowerCase();
     setChat(prev => [...prev, `You: ${userInput}`]);
 
+    // Create or use existing session ID
+    let sessionId = localStorage.getItem('session_id');
+    if (!sessionId) {
+      sessionId = Date.now().toString();  // Use current time as a unique session ID
+      localStorage.setItem('session_id', sessionId);  // Save session ID in localStorage
+    }
+
     // Step-based logic for user interactions
     if (step === 0) {
       if (input === 'yes') {
@@ -48,22 +55,30 @@ const LeadChatbot: React.FC = () => {
       setIsLoading(true);
 
       try {
-        const response = await fetch("http://localhost:5000/generate", {
+        // Send the request to Flask API
+        const response = await fetch("http://localhost:5000/chat", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ place, niche: userInput }),
+          body: JSON.stringify({ 
+            session_id: sessionId,  // Pass session ID
+            place: place,  // Pass the place
+            niche: niche   // Pass the niche
+          }),
         });
 
         const data = await response.json();
-        if (data.leads) {
-          setLeads(data.leads);
+        if (data.bot) {
           setChat(prev => [
             ...prev,
-            `Bot: ${data.status}`,
-            `Bot: Retrieved ${data.leads.length} leads.`
+            `Bot: ${data.bot}`,
+            ...(data.leads ? [`Bot: Retrieved ${data.leads.length} leads.`] : []),
+            "Bot: Successfully, leads are saved."  // Success message added here
           ]);
+          if (data.leads) {
+            setLeads(data.leads); // Store the leads if available
+          }
         } else {
-          setChat(prev => [...prev, "Bot: Failed to get leads."]);
+          setChat(prev => [...prev, "Bot: Something went wrong."]);
         }
       } catch (error) {
         setChat(prev => [...prev, "Bot: Error connecting to server."]);
@@ -79,7 +94,7 @@ const LeadChatbot: React.FC = () => {
   return (
     <div style={{ padding: '1rem', backgroundColor: 'black', color: 'white', minHeight: '100vh' }}>
       <h2>Lead Generation Chatbot</h2>
-      
+
       <div style={{
         background: '#1a1a1a',
         padding: '1rem',
