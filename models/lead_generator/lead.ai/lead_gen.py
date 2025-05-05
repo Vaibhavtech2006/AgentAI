@@ -32,7 +32,7 @@ class ApifyScraperTool(Tool):
 
         try:
             # Start the Apify task
-            run = task_client.call(task_input=task_input, timeout_secs=120, memory_mbytes=1024)
+            run = task_client.call(task_input=task_input, timeout_secs=120, memory_mbytes=)
             print(f"Task started: {run['id']}")
 
             # Wait for the task to complete

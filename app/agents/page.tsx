@@ -6,13 +6,24 @@ import { WavyBackground } from "@/components/ui/wavy-background";
 import { GlareCard } from "@/components/ui/glare-card";
 import { StickyScroll } from "@/components/ui/sticky-scroll-reveal";
 import { InfiniteMovingCards } from "@/components/ui/infinite-moving-cards";
-import Link from 'next/link';
+import Link from "next/link";
+import { useRouter } from "next/navigation";
 
+// Define interfaces for content and testimonials
+interface StickyContent {
+  title: string;
+  description: string;
+  content: JSX.Element;
+}
 
+interface Testimonial {
+  quote: string;
+  name: string;
+  title: string;
+}
 
-import { useRouter } from 'next/navigation';  
-
-const stickyContent = [
+// Sticky content
+const stickyContent: StickyContent[] = [
   {
     title: "Connect with Your Leads",
     description: "Build strong relationships by understanding your lead's needs and preferences.",
@@ -45,7 +56,8 @@ const stickyContent = [
   },
 ];
 
-const testimonials = [
+// Testimonials content
+const testimonials: Testimonial[] = [
   {
     quote: "This tool transformed how we reach our leads!",
     name: "Ananya Sharma",
@@ -73,14 +85,13 @@ const testimonials = [
   },
 ];
 
-export default function AgentsPage() {
+const AgentsPage: React.FC = () => {
   return (
     <div className="relative flex flex-col items-center justify-center min-h-screen bg-black overflow-hidden space-y-10">
       {/* Spotlight Card */}
       <div className="z-10 relative mt-20">
         <CardSpotlight className="h-64 w-64 p-6 rounded-lg shadow-lg bg-gradient-to-r from-blue-500 via-purple-500 to-indigo-600">
-        <Link href="/agents/chatbot">
-
+          <Link href="/agents/chatbot">
             <div className="group flex items-center justify-center gap-2 text-2xl font-extrabold text-white text-center mt-2 shadow-md p-2 rounded-md hover:bg-white hover:text-black transition duration-300 cursor-pointer">
               Generate Your Lead
               <span className="transition-transform transform group-hover:translate-x-1 duration-300">
@@ -115,12 +126,14 @@ export default function AgentsPage() {
             </button>
           </GlareCard>
 
-          <GlareCard className="flex flex-col items-center justify-center space-y-4 p-6">
-            <p className="text-white font-semibold text-lg">Call Your Lead</p>
-            <button className="bg-red-600 hover:bg-red-800 text-white font-medium py-2 px-4 rounded transition duration-300">
-              Start Call
-            </button>
-          </GlareCard>
+          <Link href="/agents/startcall" className="w-full max-w-xs">
+  <GlareCard className="cursor-pointer flex flex-col items-center justify-center space-y-4 p-6">
+    <p className="text-white font-semibold text-lg">Call Your Lead</p>
+    <span className="inline-block bg-red-600 hover:bg-red-800 text-white font-medium py-2 px-4 rounded transition duration-300 mt-2 text-center">
+      Start Call
+    </span>
+  </GlareCard>
+</Link>
         </div>
       </div>
 
@@ -145,4 +158,6 @@ export default function AgentsPage() {
       </div>
     </div>
   );
-}
+};
+
+export default AgentsPage;

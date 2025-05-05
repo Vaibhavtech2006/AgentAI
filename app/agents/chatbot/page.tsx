@@ -1,40 +1,37 @@
-"use client";
-
+"use client"
 import React, { useState } from 'react';
+import axios from 'axios';
 
 interface Lead {
-  [key: string]: string;
+  title: string;
+  address: string;
+  phone: string;
+  website: string;
 }
 
 const LeadChatbot: React.FC = () => {
   const [step, setStep] = useState(0);
   const [place, setPlace] = useState('');
   const [niche, setNiche] = useState('');
+  const [userInput, setUserInput] = useState('');
   const [chat, setChat] = useState<string[]>([
     "Bot: Hello! I am your lead generation assistant.",
     "Bot: Would you like to generate business leads? (yes/no)"
   ]);
-  const [userInput, setUserInput] = useState('');
   const [leads, setLeads] = useState<Lead[]>([]);
-  const [isLoading, setIsLoading] = useState(false);  // Loading state for fetching leads
+  const [loading, setLoading] = useState(false);
+  const [message, setMessage] = useState('');
 
   const handleSend = async () => {
-    if (!userInput.trim()) return;  // Avoid empty input
+    if (!userInput.trim()) return;
 
-    const input = userInput.trim().toLowerCase();
     setChat(prev => [...prev, `You: ${userInput}`]);
 
-    // Create or use existing session ID
-    let sessionId = localStorage.getItem('session_id');
-    if (!sessionId) {
-      sessionId = Date.now().toString();  // Use current time as a unique session ID
-      localStorage.setItem('session_id', sessionId);  // Save session ID in localStorage
-    }
+    const input = userInput.trim().toLowerCase();
 
-    // Step-based logic for user interactions
     if (step === 0) {
       if (input === 'yes') {
-        setChat(prev => [...prev, "Bot: Great! Enter the place name (e.g., city or area):"]);
+        setChat(prev => [...prev, "Bot: Great! Please enter the place name (e.g., city or area):"]);
         setStep(1);
       } else if (input === 'no') {
         setChat(prev => [...prev, "Bot: Okay, no problem. Let me know if you change your mind!"]);
@@ -44,47 +41,36 @@ const LeadChatbot: React.FC = () => {
       }
     } else if (step === 1) {
       setPlace(userInput);
-      setChat(prev => [...prev, "Bot: Enter the business niche (e.g., restaurant, store):"]);
+      setChat(prev => [...prev, "Bot: Please enter the business niche (e.g., restaurant, store):"]);
       setStep(2);
     } else if (step === 2) {
       setNiche(userInput);
       setChat(prev => [...prev, "Bot: Generating leads, please wait..."]);
       setStep(3);
 
-      // Start loading indicator
-      setIsLoading(true);
+      setLoading(true);
+      setMessage('Generating leads, please wait...');
 
       try {
-        // Send the request to Flask API
-        const response = await fetch("http://localhost:5000/chat", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ 
-            session_id: sessionId,  // Pass session ID
-            place: place,  // Pass the place
-            niche: niche   // Pass the niche
-          }),
+        const response = await axios.post('http://localhost:5000/generate-leads', {
+          place,
+          niche: userInput
         });
+        
 
-        const data = await response.json();
-        if (data.bot) {
-          setChat(prev => [
-            ...prev,
-            `Bot: ${data.bot}`,
-            ...(data.leads ? [`Bot: Retrieved ${data.leads.length} leads.`] : []),
-            "Bot: Successfully, leads are saved."  // Success message added here
-          ]);
-          if (data.leads) {
-            setLeads(data.leads); // Store the leads if available
-          }
+        if (response.data.leads && response.data.leads.length > 0) {
+          setLeads(response.data.leads);
+          setMessage('Leads saved successfully!');
+          setChat(prev => [...prev, "Bot: Successfully generated leads."]);
         } else {
-          setChat(prev => [...prev, "Bot: Something went wrong."]);
+          setMessage('No leads found.');
+          setChat(prev => [...prev, "Bot: No leads found."]);
         }
       } catch (error) {
-        setChat(prev => [...prev, "Bot: Error connecting to server."]);
+        setMessage('Error generating leads.');
+        setChat(prev => [...prev, "Bot: Error generating leads."]);
       } finally {
-        // Stop loading indicator
-        setIsLoading(false);
+        setLoading(false);
       }
     }
 
@@ -108,7 +94,6 @@ const LeadChatbot: React.FC = () => {
         ))}
       </div>
 
-      {/* User input section */}
       {step !== -1 && (
         <>
           <input
@@ -142,35 +127,31 @@ const LeadChatbot: React.FC = () => {
         </>
       )}
 
-      {/* Show loading state */}
-      {isLoading && (
+      {loading && (
         <div style={{ marginTop: '1rem', color: '#bbb' }}>
           Bot: Generating leads... Please wait.
         </div>
       )}
 
-      {/* Display the leads table if available */}
       {leads.length > 0 && (
         <div style={{ marginTop: '2rem' }}>
           <h3>Lead Results</h3>
-          <table border={1} cellPadding={5} style={{ backgroundColor: '#111', color: 'white', borderColor: '#444' }}>
-            <thead>
-              <tr>
-                {Object.keys(leads[0]).map((key) => (
-                  <th key={key}>{key}</th>
-                ))}
-              </tr>
-            </thead>
-            <tbody>
-              {leads.map((lead, index) => (
-                <tr key={index}>
-                  {Object.values(lead).map((value, i) => (
-                    <td key={i}>{value}</td>
-                  ))}
-                </tr>
-              ))}
-            </tbody>
-          </table>
+          <ul>
+            {leads.map((lead, index) => (
+              <li key={index} style={{ marginBottom: '1rem', borderBottom: '1px solid #555', paddingBottom: '0.5rem' }}>
+                <p><strong>{lead.title}</strong></p>
+                <p>{lead.address}</p>
+                <p>{lead.phone}</p>
+                <p>{lead.website}</p>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
+
+      {message && (
+        <div style={{ marginTop: '1rem', color: '#bbb' }}>
+          Bot: {message}
         </div>
       )}
     </div>

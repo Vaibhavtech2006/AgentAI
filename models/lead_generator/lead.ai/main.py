@@ -18,8 +18,8 @@ load_dotenv()
 supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
 
 # Initialize the ApifyClient
-client = ApifyClient('apify_api_nrEZV8beCjVGNrxMT8OftptNHQMrbe0insCD')
-task_client = client.task('vaibhavhackeer/google-maps-scraper-task')
+client = ApifyClient('apify_api_pwfGLoMWEAOfW7dJeTe3NYHuWcTXL43X7IWo')
+task_client = client.task('nipun1a1b/google-maps-extractor-task')
 
 class SimplePhiDataAgent(Agent):
     def __init__(self, name: str):
