@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Outbound Sponsor Call</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 2rem;
+      max-width: 600px;
+      margin: auto;
+    }
+    label {
+      display: block;
+      margin-top: 1rem;
+    }
+    textarea, input {
+      width: 100%;
+      padding: 0.5rem;
+      margin-top: 0.25rem;
+    }
+    button {
+      margin-top: 1.5rem;
+      padding: 0.75rem 1.5rem;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+    .status {
+      margin-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <h2>Send Sponsor Call Request</h2>
+
+  <label for="prompt">Prompt:</label>
+  <textarea id="prompt" rows="5">You are Eric, an outbound sponsors agent. You are calling to get sponsors. Be friendly and professional and answer all questions.</textarea>
+
+  <label for="firstMessage">First Message:</label>
+  <textarea id="firstMessage" rows="4">Hello Mrigaank, my name is Eric. I heard you were looking to sponsor events. Would you be interested in sponsoring ours?</textarea>
+
+  <label for="phoneNumber">Phone Number:</label>
+  <input type="text" id="phoneNumber" value="+919811250953" />
+
+  <button onclick="sendCallRequest()">Send Call</button>
+
+  <div class="status" id="status"></div>
+
+  <script>
+    async function sendCallRequest() {
+      const prompt = document.getElementById('prompt').value.trim();
+      const first_message = document.getElementById('firstMessage').value.trim();
+      const number = document.getElementById('phoneNumber').value.trim();
+
+      // Create the body data for the POST request
+      const bodyData = JSON.stringify({ prompt, first_message, number });
+
+      try {
+        // Send the POST request to the server
+        const response = await fetch("https://a1f4-2402-8100-27f2-3d11-35f5-1b24-3291-1837.ngrok-free.app/outbound-call", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: bodyData
+        });
+
+        const statusDiv = document.getElementById("status");
+        if (response.ok) {
+          statusDiv.textContent = "✅ Call request sent successfully!";
+        } else {
+          const errorText = await response.text();
+          statusDiv.textContent = `❌ Error: ${response.status} - ${errorText}`;
+        }
+      } catch (error) {
+        const statusDiv = document.getElementById("status");
+        statusDiv.textContent = `❌ Error: ${error.message}`;
+      }
+    }
+  </script>
+</body>
+</html>
