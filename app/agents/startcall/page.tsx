@@ -23,10 +23,10 @@ export default function StartCallPage() {
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     console.log(formData);
-  
+
     try {
       const response = await axios.post(
-        '/api/savecall',
+        './startcall', // Corrected API endpoint path
         formData,
         { headers: { 'Content-Type': 'application/json' } }
       );
@@ -37,9 +37,6 @@ export default function StartCallPage() {
       alert('Failed to save call data.');
     }
   };
-  
-
-    
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-black">

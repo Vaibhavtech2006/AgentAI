@@ -97,7 +97,7 @@ const Hero = () => {
             Say goodbye to endless scheduling and missed calls. Our intelligent AI agents handle everything — from booking your meetings to placing free calls on your behalf.
           </p>
 
-          <Link href="/agents" className="mt-8">
+          <Link href="/agents" className="mt-1">
             <MagicButton
               title="Try Our Agents"
               icon={<FaLocationArrow />}
